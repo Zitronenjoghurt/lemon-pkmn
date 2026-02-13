@@ -4,10 +4,16 @@ use std::path::{Path, PathBuf};
 const POKEAPI_BASE_URL: &str =
     "https://raw.githubusercontent.com/PokeAPI/pokeapi/refs/heads/master/data/v2/csv";
 const POKEAPI_REQUIRED: &[&str] = &[
+    "move_flag_map",
+    "move_flags",
+    "move_meta",
+    "moves",
     "pokemon",
+    "pokemon_form_types",
     "pokemon_forms",
     "pokemon_species",
     "pokemon_stats",
+    "pokemon_types",
 ];
 
 pub struct Fetcher {

@@ -1,5 +1,5 @@
 use crate::battle::target::BattleTargetSingle;
-use crate::types::pokemon_move::MoveId;
+use crate::data::moves::MoveId;
 
 pub enum BattleAction {
     UseMove {

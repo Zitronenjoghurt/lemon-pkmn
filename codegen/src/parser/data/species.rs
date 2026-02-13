@@ -2,6 +2,7 @@ use crate::parser::csv::pokemon_forms::PokemonFormsRecord;
 use crate::parser::csv::CsvData;
 use crate::parser::data::DataRecord;
 use anyhow::Context;
+use lemon_pkmn::types::pokemon_type::PokemonType;
 use lemon_pkmn::types::stats::Stats;
 use std::collections::HashMap;
 
@@ -15,6 +16,8 @@ pub struct SpeciesRecord {
     /// National dex number (from pokemon_species.csv id)
     /// Shared across all forms of the same species
     pub national_id: u16,
+    pub primary_type: PokemonType,
+    pub secondary_type: Option<PokemonType>,
     pub is_default: bool,
     pub is_battle_only: bool,
     pub is_gmax: bool,
@@ -32,6 +35,8 @@ struct SpeciesBuilder {
     pub id: u16,
     pub pokemon_id: u16,
     pub national_id: Option<u16>,
+    pub primary_type: Option<PokemonType>,
+    pub secondary_type: Option<PokemonType>,
     pub is_default: bool,
     pub is_battle_only: bool,
     pub is_gmax: bool,
@@ -52,6 +57,10 @@ impl SpeciesBuilder {
             national_id: self
                 .national_id
                 .context(format!("Missing species id for form '{}'", self.id))?,
+            primary_type: self
+                .primary_type
+                .context(format!("Missing primary type for form {}", self.id))?,
+            secondary_type: self.secondary_type,
             is_default: self.is_default,
             is_battle_only: self.is_battle_only,
             is_gmax: self.is_gmax,
@@ -138,6 +147,43 @@ impl DataRecord for SpeciesRecord {
             for id in ids {
                 let species = species_by_id.get_mut(id).unwrap();
                 stats_record.apply(&mut species.stats)?;
+            }
+        }
+
+        for pokemon_type in &csv_data.pokemon_types {
+            let ids = ids_by_pokemon_id
+                .get(&pokemon_type.pokemon_id)
+                .context(format!(
+                    "PokeAPI pokemon with id '{}' has no form",
+                    pokemon_type.pokemon_id
+                ))?;
+
+            for id in ids {
+                let species = species_by_id.get_mut(id).unwrap();
+                let type_ = PokemonType::from_repr(pokemon_type.type_id).context(format!(
+                    "Invalid pokemon type_id: '{}'",
+                    pokemon_type.type_id
+                ))?;
+                if pokemon_type.slot == 1 {
+                    species.primary_type = Some(type_);
+                } else if pokemon_type.slot == 2 {
+                    species.secondary_type = Some(type_);
+                }
+            }
+        }
+
+        for pokemon_form_type in &csv_data.pokemon_form_types {
+            let species = species_by_id
+                .get_mut(&pokemon_form_type.pokemon_form_id)
+                .unwrap();
+            let type_ = PokemonType::from_repr(pokemon_form_type.type_id).context(format!(
+                "Invalid pokemon type_id: '{}'",
+                pokemon_form_type.type_id
+            ))?;
+            if pokemon_form_type.slot == 1 {
+                species.primary_type = Some(type_);
+            } else if pokemon_form_type.slot == 2 {
+                species.secondary_type = Some(type_);
             }
         }
 
