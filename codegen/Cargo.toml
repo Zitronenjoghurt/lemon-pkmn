@@ -1,0 +1,18 @@
+[package]
+name = "lemon-pkmn-codegen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lemon-pkmn = { workspace = true }
+anyhow = "1.0.101"
+csv = "1.4.0"
+prettyplease = "0.2.37"
+quote = "1.0.44"
+reqwest = { version = "0.13.2", features = ["rustls"] }
+serde = { version = "1.0.228", features = ["derive"] }
+strum_macros = { workspace = true }
+syn = "2.0.115"
+tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
