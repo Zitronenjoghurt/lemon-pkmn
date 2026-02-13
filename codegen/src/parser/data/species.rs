@@ -3,6 +3,7 @@ use crate::parser::csv::CsvData;
 use crate::parser::data::DataRecord;
 use anyhow::Context;
 use lemon_pkmn::types::pokemon_type::PokemonType;
+use lemon_pkmn::types::species_flags::SpeciesFlags;
 use lemon_pkmn::types::stats::Stats;
 use std::collections::HashMap;
 
@@ -18,15 +19,9 @@ pub struct SpeciesRecord {
     pub national_id: u16,
     pub primary_type: PokemonType,
     pub secondary_type: Option<PokemonType>,
-    pub is_default: bool,
-    pub is_battle_only: bool,
-    pub is_gmax: bool,
-    pub is_mega: bool,
-    pub is_legendary: bool,
-    pub is_mythical: bool,
-    pub form_switchable: bool,
     pub form_identifier: Option<String>,
     pub stats: Stats,
+    pub flags: SpeciesFlags,
 }
 
 #[derive(Debug, Default)]
@@ -50,6 +45,29 @@ struct SpeciesBuilder {
 
 impl SpeciesBuilder {
     pub fn build(self) -> anyhow::Result<SpeciesRecord> {
+        let mut flags = SpeciesFlags::empty();
+        if self.is_default {
+            flags.insert(SpeciesFlags::DEFAULT_FORM);
+        }
+        if self.is_battle_only {
+            flags.insert(SpeciesFlags::BATTLE_ONLY);
+        }
+        if self.is_gmax {
+            flags.insert(SpeciesFlags::GMAX);
+        }
+        if self.is_mega {
+            flags.insert(SpeciesFlags::MEGA);
+        }
+        if self.is_legendary {
+            flags.insert(SpeciesFlags::LEGENDARY);
+        }
+        if self.is_mythical {
+            flags.insert(SpeciesFlags::MYTHICAL);
+        }
+        if self.form_switchable {
+            flags.insert(SpeciesFlags::FORM_SWITCHABLE);
+        }
+
         Ok(SpeciesRecord {
             identifier: self.identifier,
             id: self.id,
@@ -61,15 +79,9 @@ impl SpeciesBuilder {
                 .primary_type
                 .context(format!("Missing primary type for form {}", self.id))?,
             secondary_type: self.secondary_type,
-            is_default: self.is_default,
-            is_battle_only: self.is_battle_only,
-            is_gmax: self.is_gmax,
-            is_mega: self.is_mega,
-            is_legendary: self.is_legendary,
-            is_mythical: self.is_mythical,
-            form_switchable: self.form_switchable,
             form_identifier: self.form_identifier,
             stats: self.stats,
+            flags,
         })
     }
 }

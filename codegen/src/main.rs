@@ -1,5 +1,6 @@
 use crate::fetcher::Fetcher;
 use crate::generator::Generator;
+use lemon_pkmn::data::print_data_size;
 use std::path::PathBuf;
 use tracing_subscriber::EnvFilter;
 
@@ -10,6 +11,9 @@ mod parser;
 #[tokio::main]
 async fn main() {
     init_logging();
+
+    println!("Previous data size:");
+    print_data_size();
 
     let data_dir = PathBuf::from("./data");
     if !data_dir.exists() {

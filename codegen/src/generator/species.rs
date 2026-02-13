@@ -27,17 +27,11 @@ pub fn generate(data: &ParsedData) -> anyhow::Result<String> {
         let sp_atk = s.stats.sp_atk;
         let sp_def = s.stats.sp_def;
         let speed = s.stats.speed;
-        let is_default_form = s.is_default;
-        let is_battle_only = s.is_battle_only;
-        let is_mega = s.is_mega;
-        let is_gmax = s.is_gmax;
-        let form_switchable = s.form_switchable;
         let form_identifier = match &s.form_identifier {
             Some(s) => quote! { Some(#s) },
             None => quote! { None },
         };
-        let is_legendary = s.is_legendary;
-        let is_mythical = s.is_mythical;
+        let flags = s.flags.bits();
 
         quote! {
             Self::#ident => &SpeciesData {
@@ -46,14 +40,8 @@ pub fn generate(data: &ParsedData) -> anyhow::Result<String> {
                 primary_type: PokemonType::#primary_type,
                 secondary_type: #secondary_type,
                 base_stats: Stats { hp: #hp, atk: #atk, def: #def, sp_atk: #sp_atk, sp_def: #sp_def, speed: #speed },
-                is_default_form: #is_default_form,
-                is_battle_only: #is_battle_only,
-                is_mega: #is_mega,
-                is_gmax: #is_gmax,
-                form_switchable: #form_switchable,
                 form_identifier: #form_identifier,
-                is_legendary: #is_legendary,
-                is_mythical: #is_mythical,
+                flags: #flags,
             },
         }
     });
