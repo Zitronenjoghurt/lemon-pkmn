@@ -19,6 +19,10 @@ pub struct SpeciesRecord {
     pub is_battle_only: bool,
     pub is_gmax: bool,
     pub is_mega: bool,
+    pub is_legendary: bool,
+    pub is_mythical: bool,
+    pub form_switchable: bool,
+    pub form_identifier: Option<String>,
     pub stats: Stats,
 }
 
@@ -32,6 +36,10 @@ struct SpeciesBuilder {
     pub is_battle_only: bool,
     pub is_gmax: bool,
     pub is_mega: bool,
+    pub is_legendary: bool,
+    pub is_mythical: bool,
+    pub form_switchable: bool,
+    pub form_identifier: Option<String>,
     pub stats: Stats,
 }
 
@@ -48,6 +56,10 @@ impl SpeciesBuilder {
             is_battle_only: self.is_battle_only,
             is_gmax: self.is_gmax,
             is_mega: self.is_mega,
+            is_legendary: self.is_legendary,
+            is_mythical: self.is_mythical,
+            form_switchable: self.form_switchable,
+            form_identifier: self.form_identifier,
             stats: self.stats,
         })
     }
@@ -59,10 +71,10 @@ impl From<&PokemonFormsRecord> for SpeciesBuilder {
             identifier: form.identifier.clone(),
             id: form.id,
             pokemon_id: form.pokemon_id,
-            is_default: form.is_default == 1,
             is_battle_only: form.is_battle_only == 1,
-            is_gmax: form.form_identifier == "gmax",
+            is_gmax: form.form_identifier.as_deref() == Some("gmax"),
             is_mega: form.is_mega == 1,
+            form_identifier: form.form_identifier.clone(),
             ..Default::default()
         }
     }
@@ -94,11 +106,24 @@ impl DataRecord for SpeciesRecord {
 
             for id in ids {
                 species_by_id.get_mut(id).unwrap().national_id = Some(pokemon.species_id);
+                species_by_id.get_mut(id).unwrap().is_default = pokemon.is_default == 1;
                 ids_by_national_id
                     .entry(pokemon.species_id)
                     .or_default()
                     .push(*id);
                 national_id_by_id.insert(*id, pokemon.species_id);
+            }
+        }
+
+        for species in &csv_data.pokemon_species {
+            let ids = ids_by_national_id.get(&species.id).context(format!(
+                "PokeAPI species with id '{}' has no form",
+                species.id
+            ))?;
+            for id in ids {
+                species_by_id.get_mut(id).unwrap().form_switchable = species.forms_switchable == 1;
+                species_by_id.get_mut(id).unwrap().is_legendary = species.is_legendary == 1;
+                species_by_id.get_mut(id).unwrap().is_mythical = species.is_mythical == 1;
             }
         }
 

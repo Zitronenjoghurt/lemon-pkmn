@@ -10,4 +10,8 @@ pub struct SpeciesData {
     pub is_battle_only: bool,
     pub is_mega: bool,
     pub is_gmax: bool,
+    pub form_switchable: bool,
+    pub form_identifier: Option<&'static str>,
+    pub is_legendary: bool,
+    pub is_mythical: bool,
 }

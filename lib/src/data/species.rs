@@ -1600,6 +1600,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ivysaur => {
@@ -1618,6 +1622,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Venusaur => {
@@ -1636,6 +1644,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Charmander => {
@@ -1654,6 +1666,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Charmeleon => {
@@ -1672,6 +1688,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Charizard => {
@@ -1690,6 +1710,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Squirtle => {
@@ -1708,6 +1732,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wartortle => {
@@ -1726,6 +1754,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Blastoise => {
@@ -1744,6 +1776,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Caterpie => {
@@ -1762,6 +1798,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Metapod => {
@@ -1780,6 +1820,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Butterfree => {
@@ -1798,6 +1842,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Weedle => {
@@ -1816,6 +1864,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kakuna => {
@@ -1834,6 +1886,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Beedrill => {
@@ -1852,6 +1908,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pidgey => {
@@ -1870,6 +1930,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pidgeotto => {
@@ -1888,6 +1952,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pidgeot => {
@@ -1906,6 +1974,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rattata => {
@@ -1924,6 +1996,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Raticate => {
@@ -1942,6 +2018,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spearow => {
@@ -1960,6 +2040,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fearow => {
@@ -1978,6 +2062,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ekans => {
@@ -1996,6 +2084,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Arbok => {
@@ -2014,6 +2106,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pikachu => {
@@ -2032,6 +2128,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Raichu => {
@@ -2050,6 +2150,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sandshrew => {
@@ -2068,6 +2172,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sandslash => {
@@ -2086,6 +2194,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::NidoranF => {
@@ -2104,6 +2216,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nidorina => {
@@ -2122,6 +2238,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nidoqueen => {
@@ -2140,6 +2260,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::NidoranM => {
@@ -2158,6 +2282,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nidorino => {
@@ -2176,6 +2304,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nidoking => {
@@ -2194,6 +2326,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Clefairy => {
@@ -2212,6 +2348,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Clefable => {
@@ -2230,6 +2370,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vulpix => {
@@ -2248,6 +2392,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ninetales => {
@@ -2266,6 +2414,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Jigglypuff => {
@@ -2284,6 +2436,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wigglytuff => {
@@ -2302,6 +2458,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zubat => {
@@ -2320,6 +2480,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Golbat => {
@@ -2338,6 +2502,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Oddish => {
@@ -2356,6 +2524,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gloom => {
@@ -2374,6 +2546,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vileplume => {
@@ -2392,6 +2568,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Paras => {
@@ -2410,6 +2590,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Parasect => {
@@ -2428,6 +2612,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Venonat => {
@@ -2446,6 +2634,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Venomoth => {
@@ -2464,6 +2656,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Diglett => {
@@ -2482,6 +2678,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dugtrio => {
@@ -2500,6 +2700,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Meowth => {
@@ -2518,6 +2722,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Persian => {
@@ -2536,6 +2744,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Psyduck => {
@@ -2554,6 +2766,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Golduck => {
@@ -2572,6 +2788,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mankey => {
@@ -2590,6 +2810,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Primeape => {
@@ -2608,6 +2832,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Growlithe => {
@@ -2626,6 +2854,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Arcanine => {
@@ -2644,6 +2876,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Poliwag => {
@@ -2662,6 +2898,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Poliwhirl => {
@@ -2680,6 +2920,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Poliwrath => {
@@ -2698,6 +2942,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Abra => {
@@ -2716,6 +2964,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kadabra => {
@@ -2734,6 +2986,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Alakazam => {
@@ -2752,6 +3008,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Machop => {
@@ -2770,6 +3030,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Machoke => {
@@ -2788,6 +3052,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Machamp => {
@@ -2806,6 +3074,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bellsprout => {
@@ -2824,6 +3096,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Weepinbell => {
@@ -2842,6 +3118,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Victreebel => {
@@ -2860,6 +3140,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tentacool => {
@@ -2878,6 +3162,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tentacruel => {
@@ -2896,6 +3184,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Geodude => {
@@ -2914,6 +3206,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Graveler => {
@@ -2932,6 +3228,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Golem => {
@@ -2950,6 +3250,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ponyta => {
@@ -2968,6 +3272,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rapidash => {
@@ -2986,6 +3294,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Slowpoke => {
@@ -3004,6 +3316,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Slowbro => {
@@ -3022,6 +3338,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magnemite => {
@@ -3040,6 +3360,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magneton => {
@@ -3058,6 +3382,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Farfetchd => {
@@ -3076,6 +3404,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Doduo => {
@@ -3094,6 +3426,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dodrio => {
@@ -3112,6 +3448,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Seel => {
@@ -3130,6 +3470,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dewgong => {
@@ -3148,6 +3492,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grimer => {
@@ -3166,6 +3514,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Muk => {
@@ -3184,6 +3536,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shellder => {
@@ -3202,6 +3558,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cloyster => {
@@ -3220,6 +3580,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gastly => {
@@ -3238,6 +3602,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Haunter => {
@@ -3256,6 +3624,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gengar => {
@@ -3274,6 +3646,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Onix => {
@@ -3292,6 +3668,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drowzee => {
@@ -3310,6 +3690,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hypno => {
@@ -3328,6 +3712,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Krabby => {
@@ -3346,6 +3734,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kingler => {
@@ -3364,6 +3756,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Voltorb => {
@@ -3382,6 +3778,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Electrode => {
@@ -3400,6 +3800,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Exeggcute => {
@@ -3418,6 +3822,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Exeggutor => {
@@ -3436,6 +3844,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cubone => {
@@ -3454,6 +3866,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Marowak => {
@@ -3472,6 +3888,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hitmonlee => {
@@ -3490,6 +3910,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hitmonchan => {
@@ -3508,6 +3932,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lickitung => {
@@ -3526,6 +3954,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Koffing => {
@@ -3544,6 +3976,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Weezing => {
@@ -3562,6 +3998,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rhyhorn => {
@@ -3580,6 +4020,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rhydon => {
@@ -3598,6 +4042,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chansey => {
@@ -3616,6 +4064,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tangela => {
@@ -3634,6 +4086,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kangaskhan => {
@@ -3652,6 +4108,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Horsea => {
@@ -3670,6 +4130,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Seadra => {
@@ -3688,6 +4152,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Goldeen => {
@@ -3706,6 +4174,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Seaking => {
@@ -3724,6 +4196,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Staryu => {
@@ -3742,6 +4218,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Starmie => {
@@ -3760,6 +4240,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MrMime => {
@@ -3778,6 +4262,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Scyther => {
@@ -3796,6 +4284,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Jynx => {
@@ -3814,6 +4306,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Electabuzz => {
@@ -3832,6 +4328,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magmar => {
@@ -3850,6 +4350,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pinsir => {
@@ -3868,6 +4372,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tauros => {
@@ -3886,6 +4394,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magikarp => {
@@ -3904,6 +4416,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gyarados => {
@@ -3922,6 +4438,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lapras => {
@@ -3940,6 +4460,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ditto => {
@@ -3958,6 +4482,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Eevee => {
@@ -3976,6 +4504,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vaporeon => {
@@ -3994,6 +4526,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Jolteon => {
@@ -4012,6 +4548,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Flareon => {
@@ -4030,6 +4570,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Porygon => {
@@ -4048,6 +4592,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Omanyte => {
@@ -4066,6 +4614,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Omastar => {
@@ -4084,6 +4636,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kabuto => {
@@ -4102,6 +4658,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kabutops => {
@@ -4120,6 +4680,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Aerodactyl => {
@@ -4138,6 +4702,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Snorlax => {
@@ -4156,6 +4724,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Articuno => {
@@ -4174,6 +4746,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Zapdos => {
@@ -4192,6 +4768,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Moltres => {
@@ -4210,6 +4790,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Dratini => {
@@ -4228,6 +4812,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dragonair => {
@@ -4246,6 +4834,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dragonite => {
@@ -4264,6 +4856,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mewtwo => {
@@ -4282,6 +4878,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Mew => {
@@ -4300,6 +4900,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Chikorita => {
@@ -4318,6 +4922,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bayleef => {
@@ -4336,6 +4944,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Meganium => {
@@ -4354,6 +4966,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cyndaquil => {
@@ -4372,6 +4988,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Quilava => {
@@ -4390,6 +5010,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Typhlosion => {
@@ -4408,6 +5032,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Totodile => {
@@ -4426,6 +5054,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Croconaw => {
@@ -4444,6 +5076,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Feraligatr => {
@@ -4462,6 +5098,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sentret => {
@@ -4480,6 +5120,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Furret => {
@@ -4498,6 +5142,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hoothoot => {
@@ -4516,6 +5164,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Noctowl => {
@@ -4534,6 +5186,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ledyba => {
@@ -4552,6 +5208,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ledian => {
@@ -4570,6 +5230,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spinarak => {
@@ -4588,6 +5252,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ariados => {
@@ -4606,6 +5274,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Crobat => {
@@ -4624,6 +5296,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chinchou => {
@@ -4642,6 +5318,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lanturn => {
@@ -4660,6 +5340,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pichu => {
@@ -4678,6 +5362,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cleffa => {
@@ -4696,6 +5384,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Igglybuff => {
@@ -4714,6 +5406,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Togepi => {
@@ -4732,6 +5428,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Togetic => {
@@ -4750,6 +5450,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Natu => {
@@ -4768,6 +5472,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Xatu => {
@@ -4786,6 +5494,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mareep => {
@@ -4804,6 +5516,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Flaaffy => {
@@ -4822,6 +5538,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ampharos => {
@@ -4840,6 +5560,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bellossom => {
@@ -4858,6 +5582,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Marill => {
@@ -4876,6 +5604,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Azumarill => {
@@ -4894,6 +5626,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sudowoodo => {
@@ -4912,6 +5648,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Politoed => {
@@ -4930,6 +5670,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hoppip => {
@@ -4948,6 +5692,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skiploom => {
@@ -4966,6 +5714,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Jumpluff => {
@@ -4984,6 +5736,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Aipom => {
@@ -5002,6 +5758,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sunkern => {
@@ -5020,6 +5780,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sunflora => {
@@ -5038,6 +5802,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Yanma => {
@@ -5056,6 +5824,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wooper => {
@@ -5074,6 +5846,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Quagsire => {
@@ -5092,6 +5868,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Espeon => {
@@ -5110,6 +5890,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Umbreon => {
@@ -5128,6 +5912,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Murkrow => {
@@ -5146,6 +5934,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Slowking => {
@@ -5164,6 +5956,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Misdreavus => {
@@ -5182,6 +5978,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownA => {
@@ -5200,6 +6000,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("a"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wobbuffet => {
@@ -5218,6 +6022,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Girafarig => {
@@ -5236,6 +6044,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pineco => {
@@ -5254,6 +6066,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Forretress => {
@@ -5272,6 +6088,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dunsparce => {
@@ -5290,6 +6110,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gligar => {
@@ -5308,6 +6132,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Steelix => {
@@ -5326,6 +6154,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Snubbull => {
@@ -5344,6 +6176,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Granbull => {
@@ -5362,6 +6198,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Qwilfish => {
@@ -5380,6 +6220,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Scizor => {
@@ -5398,6 +6242,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shuckle => {
@@ -5416,6 +6264,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Heracross => {
@@ -5434,6 +6286,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sneasel => {
@@ -5452,6 +6308,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Teddiursa => {
@@ -5470,6 +6330,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ursaring => {
@@ -5488,6 +6352,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Slugma => {
@@ -5506,6 +6374,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magcargo => {
@@ -5524,6 +6396,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swinub => {
@@ -5542,6 +6418,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Piloswine => {
@@ -5560,6 +6440,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Corsola => {
@@ -5578,6 +6462,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Remoraid => {
@@ -5596,6 +6484,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Octillery => {
@@ -5614,6 +6506,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Delibird => {
@@ -5632,6 +6528,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mantine => {
@@ -5650,6 +6550,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skarmory => {
@@ -5668,6 +6572,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Houndour => {
@@ -5686,6 +6594,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Houndoom => {
@@ -5704,6 +6616,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kingdra => {
@@ -5722,6 +6638,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Phanpy => {
@@ -5740,6 +6660,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Donphan => {
@@ -5758,6 +6682,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Porygon2 => {
@@ -5776,6 +6704,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Stantler => {
@@ -5794,6 +6726,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Smeargle => {
@@ -5812,6 +6748,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tyrogue => {
@@ -5830,6 +6770,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hitmontop => {
@@ -5848,6 +6792,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Smoochum => {
@@ -5866,6 +6814,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Elekid => {
@@ -5884,6 +6836,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magby => {
@@ -5902,6 +6858,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Miltank => {
@@ -5920,6 +6880,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Blissey => {
@@ -5938,6 +6902,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Raikou => {
@@ -5956,6 +6924,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Entei => {
@@ -5974,6 +6946,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Suicune => {
@@ -5992,6 +6968,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Larvitar => {
@@ -6010,6 +6990,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pupitar => {
@@ -6028,6 +7012,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tyranitar => {
@@ -6046,6 +7034,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lugia => {
@@ -6064,6 +7056,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::HoOh => {
@@ -6082,6 +7078,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Celebi => {
@@ -6100,6 +7100,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Treecko => {
@@ -6118,6 +7122,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grovyle => {
@@ -6136,6 +7144,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sceptile => {
@@ -6154,6 +7166,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Torchic => {
@@ -6172,6 +7188,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Combusken => {
@@ -6190,6 +7210,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Blaziken => {
@@ -6208,6 +7232,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mudkip => {
@@ -6226,6 +7254,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Marshtomp => {
@@ -6244,6 +7276,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swampert => {
@@ -6262,6 +7298,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Poochyena => {
@@ -6280,6 +7320,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mightyena => {
@@ -6298,6 +7342,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zigzagoon => {
@@ -6316,6 +7364,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Linoone => {
@@ -6334,6 +7386,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wurmple => {
@@ -6352,6 +7408,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Silcoon => {
@@ -6370,6 +7430,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Beautifly => {
@@ -6388,6 +7452,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cascoon => {
@@ -6406,6 +7474,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dustox => {
@@ -6424,6 +7496,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lotad => {
@@ -6442,6 +7518,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lombre => {
@@ -6460,6 +7540,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ludicolo => {
@@ -6478,6 +7562,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Seedot => {
@@ -6496,6 +7584,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nuzleaf => {
@@ -6514,6 +7606,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shiftry => {
@@ -6532,6 +7628,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Taillow => {
@@ -6550,6 +7650,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swellow => {
@@ -6568,6 +7672,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wingull => {
@@ -6586,6 +7694,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pelipper => {
@@ -6604,6 +7716,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ralts => {
@@ -6622,6 +7738,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kirlia => {
@@ -6640,6 +7760,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gardevoir => {
@@ -6658,6 +7782,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Surskit => {
@@ -6676,6 +7804,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Masquerain => {
@@ -6694,6 +7826,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shroomish => {
@@ -6712,6 +7848,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Breloom => {
@@ -6730,6 +7870,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Slakoth => {
@@ -6748,6 +7892,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vigoroth => {
@@ -6766,6 +7914,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Slaking => {
@@ -6784,6 +7936,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nincada => {
@@ -6802,6 +7958,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ninjask => {
@@ -6820,6 +7980,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shedinja => {
@@ -6838,6 +8002,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Whismur => {
@@ -6856,6 +8024,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Loudred => {
@@ -6874,6 +8046,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Exploud => {
@@ -6892,6 +8068,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Makuhita => {
@@ -6910,6 +8090,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hariyama => {
@@ -6928,6 +8112,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Azurill => {
@@ -6946,6 +8134,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nosepass => {
@@ -6964,6 +8156,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skitty => {
@@ -6982,6 +8178,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Delcatty => {
@@ -7000,6 +8200,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sableye => {
@@ -7018,6 +8222,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mawile => {
@@ -7036,6 +8244,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Aron => {
@@ -7054,6 +8266,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lairon => {
@@ -7072,6 +8288,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Aggron => {
@@ -7090,6 +8310,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Meditite => {
@@ -7108,6 +8332,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Medicham => {
@@ -7126,6 +8354,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Electrike => {
@@ -7144,6 +8376,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Manectric => {
@@ -7162,6 +8398,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Plusle => {
@@ -7180,6 +8420,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Minun => {
@@ -7198,6 +8442,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Volbeat => {
@@ -7216,6 +8464,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Illumise => {
@@ -7234,6 +8486,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Roselia => {
@@ -7252,6 +8508,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gulpin => {
@@ -7270,6 +8530,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swalot => {
@@ -7288,6 +8552,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Carvanha => {
@@ -7306,6 +8574,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sharpedo => {
@@ -7324,6 +8596,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wailmer => {
@@ -7342,6 +8618,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wailord => {
@@ -7360,6 +8640,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Numel => {
@@ -7378,6 +8662,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Camerupt => {
@@ -7396,6 +8684,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Torkoal => {
@@ -7414,6 +8706,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spoink => {
@@ -7432,6 +8728,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grumpig => {
@@ -7450,6 +8750,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spinda => {
@@ -7468,6 +8772,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Trapinch => {
@@ -7486,6 +8794,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vibrava => {
@@ -7504,6 +8816,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Flygon => {
@@ -7522,6 +8838,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cacnea => {
@@ -7540,6 +8860,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cacturne => {
@@ -7558,6 +8882,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swablu => {
@@ -7576,6 +8904,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Altaria => {
@@ -7594,6 +8926,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zangoose => {
@@ -7612,6 +8948,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Seviper => {
@@ -7630,6 +8970,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lunatone => {
@@ -7648,6 +8992,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Solrock => {
@@ -7666,6 +9014,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Barboach => {
@@ -7684,6 +9036,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Whiscash => {
@@ -7702,6 +9058,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Corphish => {
@@ -7720,6 +9080,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Crawdaunt => {
@@ -7738,6 +9102,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Baltoy => {
@@ -7756,6 +9124,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Claydol => {
@@ -7774,6 +9146,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lileep => {
@@ -7792,6 +9168,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cradily => {
@@ -7810,6 +9190,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Anorith => {
@@ -7828,6 +9212,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Armaldo => {
@@ -7846,6 +9234,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Feebas => {
@@ -7864,6 +9256,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Milotic => {
@@ -7882,6 +9278,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Castform => {
@@ -7900,6 +9300,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kecleon => {
@@ -7918,6 +9322,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shuppet => {
@@ -7936,6 +9344,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Banette => {
@@ -7954,6 +9366,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Duskull => {
@@ -7972,6 +9388,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dusclops => {
@@ -7990,6 +9410,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tropius => {
@@ -8008,6 +9432,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chimecho => {
@@ -8026,6 +9454,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Absol => {
@@ -8044,6 +9476,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wynaut => {
@@ -8062,6 +9498,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Snorunt => {
@@ -8080,6 +9520,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Glalie => {
@@ -8098,6 +9542,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spheal => {
@@ -8116,6 +9564,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sealeo => {
@@ -8134,6 +9586,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Walrein => {
@@ -8152,6 +9608,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Clamperl => {
@@ -8170,6 +9630,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Huntail => {
@@ -8188,6 +9652,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gorebyss => {
@@ -8206,6 +9674,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Relicanth => {
@@ -8224,6 +9696,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Luvdisc => {
@@ -8242,6 +9718,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bagon => {
@@ -8260,6 +9740,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shelgon => {
@@ -8278,6 +9762,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Salamence => {
@@ -8296,6 +9784,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Beldum => {
@@ -8314,6 +9806,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Metang => {
@@ -8332,6 +9828,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Metagross => {
@@ -8350,6 +9850,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Regirock => {
@@ -8368,6 +9872,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Regice => {
@@ -8386,6 +9894,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Registeel => {
@@ -8404,6 +9916,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Latias => {
@@ -8422,6 +9938,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Latios => {
@@ -8440,6 +9960,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Kyogre => {
@@ -8458,6 +9982,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Groudon => {
@@ -8476,6 +10004,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Rayquaza => {
@@ -8494,6 +10026,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Jirachi => {
@@ -8512,6 +10048,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::DeoxysNormal => {
@@ -8530,6 +10070,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("normal"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Turtwig => {
@@ -8548,6 +10092,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grotle => {
@@ -8566,6 +10114,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Torterra => {
@@ -8584,6 +10136,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chimchar => {
@@ -8602,6 +10158,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Monferno => {
@@ -8620,6 +10180,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Infernape => {
@@ -8638,6 +10202,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Piplup => {
@@ -8656,6 +10224,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Prinplup => {
@@ -8674,6 +10246,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Empoleon => {
@@ -8692,6 +10268,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Starly => {
@@ -8710,6 +10290,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Staravia => {
@@ -8728,6 +10312,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Staraptor => {
@@ -8746,6 +10334,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bidoof => {
@@ -8764,6 +10356,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bibarel => {
@@ -8782,6 +10378,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kricketot => {
@@ -8800,6 +10400,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kricketune => {
@@ -8818,6 +10422,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shinx => {
@@ -8836,6 +10444,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Luxio => {
@@ -8854,6 +10466,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Luxray => {
@@ -8872,6 +10488,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Budew => {
@@ -8890,6 +10510,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Roserade => {
@@ -8908,6 +10532,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cranidos => {
@@ -8926,6 +10554,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rampardos => {
@@ -8944,6 +10576,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shieldon => {
@@ -8962,6 +10598,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bastiodon => {
@@ -8980,6 +10620,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BurmyPlant => {
@@ -8998,6 +10642,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("plant"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WormadamPlant => {
@@ -9016,6 +10664,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("plant"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MothimPlant => {
@@ -9034,6 +10686,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("plant"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Combee => {
@@ -9052,6 +10708,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vespiquen => {
@@ -9070,6 +10730,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pachirisu => {
@@ -9088,6 +10752,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Buizel => {
@@ -9106,6 +10774,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Floatzel => {
@@ -9124,6 +10796,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cherubi => {
@@ -9142,6 +10818,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CherrimOvercast => {
@@ -9160,6 +10840,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("overcast"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ShellosWest => {
@@ -9178,6 +10862,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("west"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GastrodonWest => {
@@ -9196,6 +10884,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("west"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ambipom => {
@@ -9214,6 +10906,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drifloon => {
@@ -9232,6 +10928,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drifblim => {
@@ -9250,6 +10950,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Buneary => {
@@ -9268,6 +10972,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lopunny => {
@@ -9286,6 +10994,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mismagius => {
@@ -9304,6 +11016,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Honchkrow => {
@@ -9322,6 +11038,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Glameow => {
@@ -9340,6 +11060,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Purugly => {
@@ -9358,6 +11082,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chingling => {
@@ -9376,6 +11104,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Stunky => {
@@ -9394,6 +11126,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skuntank => {
@@ -9412,6 +11148,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bronzor => {
@@ -9430,6 +11170,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bronzong => {
@@ -9448,6 +11192,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bonsly => {
@@ -9466,6 +11214,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MimeJr => {
@@ -9484,6 +11236,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Happiny => {
@@ -9502,6 +11258,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chatot => {
@@ -9520,6 +11280,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spiritomb => {
@@ -9538,6 +11302,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gible => {
@@ -9556,6 +11324,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gabite => {
@@ -9574,6 +11346,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Garchomp => {
@@ -9592,6 +11368,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Munchlax => {
@@ -9610,6 +11390,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Riolu => {
@@ -9628,6 +11412,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lucario => {
@@ -9646,6 +11434,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hippopotas => {
@@ -9664,6 +11456,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hippowdon => {
@@ -9682,6 +11478,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skorupi => {
@@ -9700,6 +11500,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drapion => {
@@ -9718,6 +11522,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Croagunk => {
@@ -9736,6 +11544,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Toxicroak => {
@@ -9754,6 +11566,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Carnivine => {
@@ -9772,6 +11588,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Finneon => {
@@ -9790,6 +11610,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lumineon => {
@@ -9808,6 +11632,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mantyke => {
@@ -9826,6 +11654,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Snover => {
@@ -9844,6 +11676,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Abomasnow => {
@@ -9862,6 +11698,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Weavile => {
@@ -9880,6 +11720,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magnezone => {
@@ -9898,6 +11742,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lickilicky => {
@@ -9916,6 +11764,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rhyperior => {
@@ -9934,6 +11786,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tangrowth => {
@@ -9952,6 +11808,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Electivire => {
@@ -9970,6 +11830,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Magmortar => {
@@ -9988,6 +11852,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Togekiss => {
@@ -10006,6 +11874,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Yanmega => {
@@ -10024,6 +11896,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Leafeon => {
@@ -10042,6 +11918,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Glaceon => {
@@ -10060,6 +11940,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gliscor => {
@@ -10078,6 +11962,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mamoswine => {
@@ -10096,6 +11984,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PorygonZ => {
@@ -10114,6 +12006,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gallade => {
@@ -10132,6 +12028,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Probopass => {
@@ -10150,6 +12050,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dusknoir => {
@@ -10168,6 +12072,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Froslass => {
@@ -10186,6 +12094,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rotom => {
@@ -10204,6 +12116,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Uxie => {
@@ -10222,6 +12138,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Mesprit => {
@@ -10240,6 +12160,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Azelf => {
@@ -10258,6 +12182,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Dialga => {
@@ -10276,6 +12204,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Palkia => {
@@ -10294,6 +12226,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Heatran => {
@@ -10312,6 +12248,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Regigigas => {
@@ -10330,6 +12270,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::GiratinaAltered => {
@@ -10348,6 +12292,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("altered"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Cresselia => {
@@ -10366,6 +12314,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Phione => {
@@ -10384,6 +12336,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Manaphy => {
@@ -10402,6 +12358,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Darkrai => {
@@ -10420,6 +12380,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ShayminLand => {
@@ -10438,6 +12402,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("land"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusNormal => {
@@ -10456,6 +12424,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("normal"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Victini => {
@@ -10474,6 +12446,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Snivy => {
@@ -10492,6 +12468,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Servine => {
@@ -10510,6 +12490,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Serperior => {
@@ -10528,6 +12512,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tepig => {
@@ -10546,6 +12534,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pignite => {
@@ -10564,6 +12556,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Emboar => {
@@ -10582,6 +12578,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Oshawott => {
@@ -10600,6 +12600,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dewott => {
@@ -10618,6 +12622,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Samurott => {
@@ -10636,6 +12644,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Patrat => {
@@ -10654,6 +12666,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Watchog => {
@@ -10672,6 +12688,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lillipup => {
@@ -10690,6 +12710,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Herdier => {
@@ -10708,6 +12732,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Stoutland => {
@@ -10726,6 +12754,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Purrloin => {
@@ -10744,6 +12776,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Liepard => {
@@ -10762,6 +12798,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pansage => {
@@ -10780,6 +12820,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Simisage => {
@@ -10798,6 +12842,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pansear => {
@@ -10816,6 +12864,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Simisear => {
@@ -10834,6 +12886,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Panpour => {
@@ -10852,6 +12908,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Simipour => {
@@ -10870,6 +12930,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Munna => {
@@ -10888,6 +12952,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Musharna => {
@@ -10906,6 +12974,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pidove => {
@@ -10924,6 +12996,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tranquill => {
@@ -10942,6 +13018,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Unfezant => {
@@ -10960,6 +13040,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Blitzle => {
@@ -10978,6 +13062,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zebstrika => {
@@ -10996,6 +13084,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Roggenrola => {
@@ -11014,6 +13106,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Boldore => {
@@ -11032,6 +13128,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gigalith => {
@@ -11050,6 +13150,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Woobat => {
@@ -11068,6 +13172,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swoobat => {
@@ -11086,6 +13194,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drilbur => {
@@ -11104,6 +13216,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Excadrill => {
@@ -11122,6 +13238,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Audino => {
@@ -11140,6 +13260,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Timburr => {
@@ -11158,6 +13282,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gurdurr => {
@@ -11176,6 +13304,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Conkeldurr => {
@@ -11194,6 +13326,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tympole => {
@@ -11212,6 +13348,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Palpitoad => {
@@ -11230,6 +13370,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Seismitoad => {
@@ -11248,6 +13392,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Throh => {
@@ -11266,6 +13414,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sawk => {
@@ -11284,6 +13436,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sewaddle => {
@@ -11302,6 +13458,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swadloon => {
@@ -11320,6 +13480,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Leavanny => {
@@ -11338,6 +13502,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Venipede => {
@@ -11356,6 +13524,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Whirlipede => {
@@ -11374,6 +13546,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Scolipede => {
@@ -11392,6 +13568,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cottonee => {
@@ -11410,6 +13590,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Whimsicott => {
@@ -11428,6 +13612,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Petilil => {
@@ -11446,6 +13634,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lilligant => {
@@ -11464,6 +13656,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BasculinRedStriped => {
@@ -11482,6 +13678,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("red-striped"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sandile => {
@@ -11500,6 +13700,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Krokorok => {
@@ -11518,6 +13722,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Krookodile => {
@@ -11536,6 +13744,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Darumaka => {
@@ -11554,6 +13766,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DarmanitanStandard => {
@@ -11572,6 +13788,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("standard"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Maractus => {
@@ -11590,6 +13810,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dwebble => {
@@ -11608,6 +13832,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Crustle => {
@@ -11626,6 +13854,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Scraggy => {
@@ -11644,6 +13876,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Scrafty => {
@@ -11662,6 +13898,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sigilyph => {
@@ -11680,6 +13920,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Yamask => {
@@ -11698,6 +13942,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cofagrigus => {
@@ -11716,6 +13964,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tirtouga => {
@@ -11734,6 +13986,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Carracosta => {
@@ -11752,6 +14008,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Archen => {
@@ -11770,6 +14030,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Archeops => {
@@ -11788,6 +14052,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Trubbish => {
@@ -11806,6 +14074,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Garbodor => {
@@ -11824,6 +14096,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zorua => {
@@ -11842,6 +14118,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zoroark => {
@@ -11860,6 +14140,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Minccino => {
@@ -11878,6 +14162,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cinccino => {
@@ -11896,6 +14184,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gothita => {
@@ -11914,6 +14206,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gothorita => {
@@ -11932,6 +14228,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gothitelle => {
@@ -11950,6 +14250,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Solosis => {
@@ -11968,6 +14272,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Duosion => {
@@ -11986,6 +14294,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Reuniclus => {
@@ -12004,6 +14316,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ducklett => {
@@ -12022,6 +14338,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swanna => {
@@ -12040,6 +14360,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vanillite => {
@@ -12058,6 +14382,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vanillish => {
@@ -12076,6 +14404,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vanilluxe => {
@@ -12094,6 +14426,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DeerlingSpring => {
@@ -12112,6 +14448,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("spring"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SawsbuckSpring => {
@@ -12130,6 +14470,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("spring"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Emolga => {
@@ -12148,6 +14492,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Karrablast => {
@@ -12166,6 +14514,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Escavalier => {
@@ -12184,6 +14536,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Foongus => {
@@ -12202,6 +14558,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Amoonguss => {
@@ -12220,6 +14580,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Frillish => {
@@ -12238,6 +14602,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Jellicent => {
@@ -12256,6 +14624,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Alomomola => {
@@ -12274,6 +14646,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Joltik => {
@@ -12292,6 +14668,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Galvantula => {
@@ -12310,6 +14690,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ferroseed => {
@@ -12328,6 +14712,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ferrothorn => {
@@ -12346,6 +14734,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Klink => {
@@ -12364,6 +14756,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Klang => {
@@ -12382,6 +14778,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Klinklang => {
@@ -12400,6 +14800,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tynamo => {
@@ -12418,6 +14822,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Eelektrik => {
@@ -12436,6 +14844,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Eelektross => {
@@ -12454,6 +14866,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Elgyem => {
@@ -12472,6 +14888,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Beheeyem => {
@@ -12490,6 +14910,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Litwick => {
@@ -12508,6 +14932,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lampent => {
@@ -12526,6 +14954,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chandelure => {
@@ -12544,6 +14976,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Axew => {
@@ -12562,6 +14998,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fraxure => {
@@ -12580,6 +15020,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Haxorus => {
@@ -12598,6 +15042,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cubchoo => {
@@ -12616,6 +15064,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Beartic => {
@@ -12634,6 +15086,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cryogonal => {
@@ -12652,6 +15108,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shelmet => {
@@ -12670,6 +15130,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Accelgor => {
@@ -12688,6 +15152,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Stunfisk => {
@@ -12706,6 +15174,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mienfoo => {
@@ -12724,6 +15196,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mienshao => {
@@ -12742,6 +15218,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Druddigon => {
@@ -12760,6 +15240,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Golett => {
@@ -12778,6 +15262,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Golurk => {
@@ -12796,6 +15284,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pawniard => {
@@ -12814,6 +15306,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bisharp => {
@@ -12832,6 +15328,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bouffalant => {
@@ -12850,6 +15350,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rufflet => {
@@ -12868,6 +15372,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Braviary => {
@@ -12886,6 +15394,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vullaby => {
@@ -12904,6 +15416,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mandibuzz => {
@@ -12922,6 +15438,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Heatmor => {
@@ -12940,6 +15460,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Durant => {
@@ -12958,6 +15482,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Deino => {
@@ -12976,6 +15504,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zweilous => {
@@ -12994,6 +15526,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hydreigon => {
@@ -13012,6 +15548,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Larvesta => {
@@ -13030,6 +15570,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Volcarona => {
@@ -13048,6 +15592,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cobalion => {
@@ -13066,6 +15614,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Terrakion => {
@@ -13084,6 +15636,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Virizion => {
@@ -13102,6 +15658,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TornadusIncarnate => {
@@ -13120,6 +15680,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("incarnate"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ThundurusIncarnate => {
@@ -13138,6 +15702,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("incarnate"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Reshiram => {
@@ -13156,6 +15724,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Zekrom => {
@@ -13174,6 +15746,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::LandorusIncarnate => {
@@ -13192,6 +15768,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("incarnate"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Kyurem => {
@@ -13210,6 +15790,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::KeldeoOrdinary => {
@@ -13228,6 +15812,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("ordinary"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::MeloettaAria => {
@@ -13246,6 +15834,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("aria"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Genesect => {
@@ -13264,6 +15856,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Chespin => {
@@ -13282,6 +15878,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Quilladin => {
@@ -13300,6 +15900,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chesnaught => {
@@ -13318,6 +15922,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fennekin => {
@@ -13336,6 +15944,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Braixen => {
@@ -13354,6 +15966,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Delphox => {
@@ -13372,6 +15988,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Froakie => {
@@ -13390,6 +16010,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Frogadier => {
@@ -13408,6 +16032,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Greninja => {
@@ -13426,6 +16054,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bunnelby => {
@@ -13444,6 +16076,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Diggersby => {
@@ -13462,6 +16098,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fletchling => {
@@ -13480,6 +16120,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fletchinder => {
@@ -13498,6 +16142,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Talonflame => {
@@ -13516,6 +16164,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugIcySnow => {
@@ -13534,6 +16186,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("icy-snow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaIcySnow => {
@@ -13552,6 +16208,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("icy-snow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonMeadow => {
@@ -13570,6 +16230,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("meadow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Litleo => {
@@ -13588,6 +16252,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pyroar => {
@@ -13606,6 +16274,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlabebeRed => {
@@ -13624,6 +16296,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("red"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FloetteRed => {
@@ -13642,6 +16318,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("red"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlorgesRed => {
@@ -13660,6 +16340,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("red"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skiddo => {
@@ -13678,6 +16362,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gogoat => {
@@ -13696,6 +16384,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pancham => {
@@ -13714,6 +16406,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pangoro => {
@@ -13732,6 +16428,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouNatural => {
@@ -13750,6 +16450,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("natural"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Espurr => {
@@ -13768,6 +16472,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeowsticMale => {
@@ -13786,6 +16494,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("male"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Honedge => {
@@ -13804,6 +16516,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Doublade => {
@@ -13822,6 +16538,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AegislashShield => {
@@ -13840,6 +16560,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("shield"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spritzee => {
@@ -13858,6 +16582,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Aromatisse => {
@@ -13876,6 +16604,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Swirlix => {
@@ -13894,6 +16626,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Slurpuff => {
@@ -13912,6 +16648,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Inkay => {
@@ -13930,6 +16670,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Malamar => {
@@ -13948,6 +16692,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Binacle => {
@@ -13966,6 +16714,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Barbaracle => {
@@ -13984,6 +16736,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skrelp => {
@@ -14002,6 +16758,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dragalge => {
@@ -14020,6 +16780,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Clauncher => {
@@ -14038,6 +16802,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Clawitzer => {
@@ -14056,6 +16824,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Helioptile => {
@@ -14074,6 +16846,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Heliolisk => {
@@ -14092,6 +16868,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tyrunt => {
@@ -14110,6 +16890,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tyrantrum => {
@@ -14128,6 +16912,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Amaura => {
@@ -14146,6 +16934,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Aurorus => {
@@ -14164,6 +16956,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sylveon => {
@@ -14182,6 +16978,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hawlucha => {
@@ -14200,6 +17000,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dedenne => {
@@ -14218,6 +17022,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Carbink => {
@@ -14236,6 +17044,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Goomy => {
@@ -14254,6 +17066,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sliggoo => {
@@ -14272,6 +17088,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Goodra => {
@@ -14290,6 +17110,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Klefki => {
@@ -14308,6 +17132,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Phantump => {
@@ -14326,6 +17154,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Trevenant => {
@@ -14344,6 +17176,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PumpkabooAverage => {
@@ -14362,6 +17198,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("average"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GourgeistAverage => {
@@ -14380,6 +17220,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("average"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bergmite => {
@@ -14398,6 +17242,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Avalugg => {
@@ -14416,6 +17264,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Noibat => {
@@ -14434,6 +17286,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Noivern => {
@@ -14452,6 +17308,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::XerneasActive => {
@@ -14466,10 +17326,14 @@ impl SpeciesId {
                         sp_def: 98u8,
                         speed: 99u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("active"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Yveltal => {
@@ -14488,6 +17352,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Zygarde50 => {
@@ -14506,6 +17374,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("50"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Diancie => {
@@ -14524,6 +17396,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Hoopa => {
@@ -14542,6 +17418,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("confined"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Volcanion => {
@@ -14560,6 +17440,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Rowlet => {
@@ -14578,6 +17462,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dartrix => {
@@ -14596,6 +17484,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Decidueye => {
@@ -14614,6 +17506,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Litten => {
@@ -14632,6 +17528,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Torracat => {
@@ -14650,6 +17550,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Incineroar => {
@@ -14668,6 +17572,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Popplio => {
@@ -14686,6 +17594,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Brionne => {
@@ -14704,6 +17616,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Primarina => {
@@ -14722,6 +17638,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pikipek => {
@@ -14740,6 +17660,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Trumbeak => {
@@ -14758,6 +17682,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Toucannon => {
@@ -14776,6 +17704,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Yungoos => {
@@ -14794,6 +17726,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gumshoos => {
@@ -14812,6 +17748,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grubbin => {
@@ -14830,6 +17770,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Charjabug => {
@@ -14848,6 +17792,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Vikavolt => {
@@ -14866,6 +17814,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Crabrawler => {
@@ -14884,6 +17836,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Crabominable => {
@@ -14902,6 +17858,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OricorioBaile => {
@@ -14920,6 +17880,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("baile"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cutiefly => {
@@ -14938,6 +17902,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ribombee => {
@@ -14956,6 +17924,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rockruff => {
@@ -14974,6 +17946,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LycanrocMidday => {
@@ -14992,6 +17968,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("midday"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WishiwashiSolo => {
@@ -15010,6 +17990,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("solo"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mareanie => {
@@ -15028,6 +18012,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Toxapex => {
@@ -15046,6 +18034,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mudbray => {
@@ -15064,6 +18056,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mudsdale => {
@@ -15082,6 +18078,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dewpider => {
@@ -15100,6 +18100,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Araquanid => {
@@ -15118,6 +18122,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fomantis => {
@@ -15136,6 +18144,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lurantis => {
@@ -15154,6 +18166,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Morelull => {
@@ -15172,6 +18188,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shiinotic => {
@@ -15190,6 +18210,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Salandit => {
@@ -15208,6 +18232,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Salazzle => {
@@ -15226,6 +18254,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Stufful => {
@@ -15244,6 +18276,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bewear => {
@@ -15262,6 +18298,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bounsweet => {
@@ -15280,6 +18320,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Steenee => {
@@ -15298,6 +18342,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tsareena => {
@@ -15316,6 +18364,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Comfey => {
@@ -15334,6 +18386,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Oranguru => {
@@ -15352,6 +18408,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Passimian => {
@@ -15370,6 +18430,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wimpod => {
@@ -15388,6 +18452,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Golisopod => {
@@ -15406,6 +18474,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sandygast => {
@@ -15424,6 +18496,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Palossand => {
@@ -15442,6 +18518,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pyukumuku => {
@@ -15460,6 +18540,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TypeNull => {
@@ -15478,6 +18562,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyNormal => {
@@ -15496,6 +18584,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("normal"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MiniorRedMeteor => {
@@ -15514,6 +18606,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("red-meteor"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Komala => {
@@ -15532,6 +18628,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Turtonator => {
@@ -15550,6 +18650,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Togedemaru => {
@@ -15568,6 +18672,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MimikyuDisguised => {
@@ -15586,6 +18694,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("disguised"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bruxish => {
@@ -15604,6 +18716,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drampa => {
@@ -15622,6 +18738,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dhelmise => {
@@ -15640,6 +18760,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::JangmoO => {
@@ -15658,6 +18782,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::HakamoO => {
@@ -15676,6 +18804,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::KommoO => {
@@ -15694,6 +18826,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TapuKoko => {
@@ -15712,6 +18848,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TapuLele => {
@@ -15730,6 +18870,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TapuBulu => {
@@ -15748,6 +18892,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TapuFini => {
@@ -15766,6 +18914,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Cosmog => {
@@ -15784,6 +18936,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Cosmoem => {
@@ -15802,6 +18958,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Solgaleo => {
@@ -15820,6 +18980,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Lunala => {
@@ -15838,6 +19002,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Nihilego => {
@@ -15856,6 +19024,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Buzzwole => {
@@ -15874,6 +19046,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pheromosa => {
@@ -15892,6 +19068,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Xurkitree => {
@@ -15910,6 +19090,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Celesteela => {
@@ -15928,6 +19112,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kartana => {
@@ -15946,6 +19134,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Guzzlord => {
@@ -15964,6 +19156,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Necrozma => {
@@ -15982,6 +19178,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Magearna => {
@@ -16000,6 +19200,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Marshadow => {
@@ -16018,6 +19222,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Poipole => {
@@ -16036,6 +19244,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Naganadel => {
@@ -16054,6 +19266,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Stakataka => {
@@ -16072,6 +19288,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Blacephalon => {
@@ -16090,6 +19310,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zeraora => {
@@ -16108,6 +19332,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Meltan => {
@@ -16126,6 +19354,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Melmetal => {
@@ -16144,6 +19376,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Grookey => {
@@ -16162,6 +19398,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Thwackey => {
@@ -16180,6 +19420,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rillaboom => {
@@ -16198,6 +19442,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Scorbunny => {
@@ -16216,6 +19464,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Raboot => {
@@ -16234,6 +19486,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cinderace => {
@@ -16252,6 +19508,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sobble => {
@@ -16270,6 +19530,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drizzile => {
@@ -16288,6 +19552,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Inteleon => {
@@ -16306,6 +19574,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skwovet => {
@@ -16324,6 +19596,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Greedent => {
@@ -16342,6 +19618,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rookidee => {
@@ -16360,6 +19640,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Corvisquire => {
@@ -16378,6 +19662,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Corviknight => {
@@ -16396,6 +19684,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Blipbug => {
@@ -16414,6 +19706,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dottler => {
@@ -16432,6 +19728,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Orbeetle => {
@@ -16450,6 +19750,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nickit => {
@@ -16468,6 +19772,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Thievul => {
@@ -16486,6 +19794,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gossifleur => {
@@ -16504,6 +19816,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Eldegoss => {
@@ -16522,6 +19838,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wooloo => {
@@ -16540,6 +19860,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dubwool => {
@@ -16558,6 +19882,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Chewtle => {
@@ -16576,6 +19904,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drednaw => {
@@ -16594,6 +19926,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Yamper => {
@@ -16612,6 +19948,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Boltund => {
@@ -16630,6 +19970,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rolycoly => {
@@ -16648,6 +19992,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Carkol => {
@@ -16666,6 +20014,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Coalossal => {
@@ -16684,6 +20036,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Applin => {
@@ -16702,6 +20058,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Flapple => {
@@ -16720,6 +20080,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Appletun => {
@@ -16738,6 +20102,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Silicobra => {
@@ -16756,6 +20124,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sandaconda => {
@@ -16774,6 +20146,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cramorant => {
@@ -16792,6 +20168,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Arrokuda => {
@@ -16810,6 +20190,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Barraskewda => {
@@ -16828,6 +20212,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Toxel => {
@@ -16846,6 +20234,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ToxtricityAmped => {
@@ -16864,6 +20256,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("amped"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sizzlipede => {
@@ -16882,6 +20278,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Centiskorch => {
@@ -16900,6 +20300,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Clobbopus => {
@@ -16918,6 +20322,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grapploct => {
@@ -16936,6 +20344,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SinisteaPhony => {
@@ -16954,6 +20366,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("phony"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PolteageistPhony => {
@@ -16972,6 +20388,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("phony"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hatenna => {
@@ -16990,6 +20410,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hattrem => {
@@ -17008,6 +20432,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hatterene => {
@@ -17026,6 +20454,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Impidimp => {
@@ -17044,6 +20476,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Morgrem => {
@@ -17062,6 +20498,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grimmsnarl => {
@@ -17080,6 +20520,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Obstagoon => {
@@ -17098,6 +20542,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Perrserker => {
@@ -17116,6 +20564,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cursola => {
@@ -17134,6 +20586,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sirfetchd => {
@@ -17152,6 +20608,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MrRime => {
@@ -17170,6 +20630,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Runerigus => {
@@ -17188,6 +20652,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Milcery => {
@@ -17206,6 +20674,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieVanillaCreamStrawberrySweet => {
@@ -17224,6 +20696,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("vanilla-cream-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Falinks => {
@@ -17242,6 +20718,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pincurchin => {
@@ -17260,6 +20740,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Snom => {
@@ -17278,6 +20762,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Frosmoth => {
@@ -17296,6 +20784,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Stonjourner => {
@@ -17314,6 +20806,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EiscueIce => {
@@ -17332,6 +20828,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ice"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IndeedeeMale => {
@@ -17350,6 +20850,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("male"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MorpekoFullBelly => {
@@ -17368,6 +20872,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("full-belly"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cufant => {
@@ -17386,6 +20894,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Copperajah => {
@@ -17404,6 +20916,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dracozolt => {
@@ -17422,6 +20938,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Arctozolt => {
@@ -17440,6 +20960,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dracovish => {
@@ -17458,6 +20982,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Arctovish => {
@@ -17476,6 +21004,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Duraludon => {
@@ -17494,6 +21026,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dreepy => {
@@ -17512,6 +21048,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Drakloak => {
@@ -17530,6 +21070,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dragapult => {
@@ -17548,6 +21092,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zacian => {
@@ -17566,6 +21114,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Zamazenta => {
@@ -17584,6 +21136,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Eternatus => {
@@ -17602,6 +21158,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Kubfu => {
@@ -17620,6 +21180,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::UrshifuSingleStrike => {
@@ -17638,6 +21202,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("single-strike"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Zarude => {
@@ -17656,6 +21224,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::Regieleki => {
@@ -17674,6 +21246,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Regidrago => {
@@ -17692,6 +21268,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Glastrier => {
@@ -17710,6 +21290,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Spectrier => {
@@ -17728,6 +21312,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Calyrex => {
@@ -17746,6 +21334,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Wyrdeer => {
@@ -17764,6 +21356,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kleavor => {
@@ -17782,6 +21378,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ursaluna => {
@@ -17800,6 +21400,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BasculegionMale => {
@@ -17818,6 +21422,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("male"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Sneasler => {
@@ -17836,6 +21444,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Overqwil => {
@@ -17854,6 +21466,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EnamorusIncarnate => {
@@ -17872,6 +21488,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("incarnate"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Sprigatito => {
@@ -17890,6 +21510,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Floragato => {
@@ -17908,6 +21532,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Meowscarada => {
@@ -17926,6 +21554,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fuecoco => {
@@ -17944,6 +21576,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Crocalor => {
@@ -17962,6 +21598,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Skeledirge => {
@@ -17980,6 +21620,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Quaxly => {
@@ -17998,6 +21642,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Quaxwell => {
@@ -18016,6 +21664,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Quaquaval => {
@@ -18034,6 +21686,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lechonk => {
@@ -18052,6 +21708,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OinkologneMale => {
@@ -18070,6 +21730,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("male"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tarountula => {
@@ -18088,6 +21752,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Spidops => {
@@ -18106,6 +21774,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nymble => {
@@ -18124,6 +21796,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Lokix => {
@@ -18142,6 +21818,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pawmi => {
@@ -18160,6 +21840,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pawmo => {
@@ -18178,6 +21862,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Pawmot => {
@@ -18196,6 +21884,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tandemaus => {
@@ -18214,6 +21906,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MausholdFamilyOfFour => {
@@ -18232,6 +21928,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("family-of-four"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Fidough => {
@@ -18250,6 +21950,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dachsbun => {
@@ -18268,6 +21972,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Smoliv => {
@@ -18286,6 +21994,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dolliv => {
@@ -18304,6 +22016,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Arboliva => {
@@ -18322,6 +22038,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SquawkabillyGreenPlumage => {
@@ -18340,6 +22060,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("green-plumage"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Nacli => {
@@ -18358,6 +22082,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Naclstack => {
@@ -18376,6 +22104,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Garganacl => {
@@ -18394,6 +22126,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Charcadet => {
@@ -18412,6 +22148,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Armarouge => {
@@ -18430,6 +22170,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Ceruledge => {
@@ -18448,6 +22192,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tadbulb => {
@@ -18466,6 +22214,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bellibolt => {
@@ -18484,6 +22236,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wattrel => {
@@ -18502,6 +22258,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kilowattrel => {
@@ -18520,6 +22280,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Maschiff => {
@@ -18538,6 +22302,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Mabosstiff => {
@@ -18556,6 +22324,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Shroodle => {
@@ -18574,6 +22346,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Grafaiai => {
@@ -18592,6 +22368,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bramblin => {
@@ -18610,6 +22390,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Brambleghast => {
@@ -18628,6 +22412,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Toedscool => {
@@ -18646,6 +22434,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Toedscruel => {
@@ -18664,6 +22456,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Klawf => {
@@ -18682,6 +22478,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Capsakid => {
@@ -18700,6 +22500,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Scovillain => {
@@ -18718,6 +22522,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rellor => {
@@ -18736,6 +22544,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Rabsca => {
@@ -18754,6 +22566,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Flittle => {
@@ -18772,6 +22588,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Espathra => {
@@ -18790,6 +22610,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tinkatink => {
@@ -18808,6 +22632,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tinkatuff => {
@@ -18826,6 +22654,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Tinkaton => {
@@ -18844,6 +22676,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wiglett => {
@@ -18862,6 +22698,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Wugtrio => {
@@ -18880,6 +22720,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Bombirdier => {
@@ -18898,6 +22742,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Finizen => {
@@ -18916,6 +22764,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PalafinZero => {
@@ -18934,6 +22786,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("zero"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Varoom => {
@@ -18952,6 +22808,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Revavroom => {
@@ -18970,6 +22830,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cyclizar => {
@@ -18988,6 +22852,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Orthworm => {
@@ -19006,6 +22874,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Glimmet => {
@@ -19024,6 +22896,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Glimmora => {
@@ -19042,6 +22918,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Greavard => {
@@ -19060,6 +22940,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Houndstone => {
@@ -19078,6 +22962,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Flamigo => {
@@ -19096,6 +22984,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cetoddle => {
@@ -19114,6 +23006,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Cetitan => {
@@ -19132,6 +23028,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Veluza => {
@@ -19150,6 +23050,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dondozo => {
@@ -19168,6 +23072,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TatsugiriCurly => {
@@ -19186,6 +23094,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("curly"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Annihilape => {
@@ -19204,6 +23116,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Clodsire => {
@@ -19222,6 +23138,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Farigiraf => {
@@ -19240,6 +23160,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DudunsparceTwoSegment => {
@@ -19258,6 +23182,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("two-segment"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Kingambit => {
@@ -19276,6 +23204,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GreatTusk => {
@@ -19294,6 +23226,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScreamTail => {
@@ -19312,6 +23248,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BruteBonnet => {
@@ -19330,6 +23270,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlutterMane => {
@@ -19348,6 +23292,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SlitherWing => {
@@ -19366,6 +23314,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SandyShocks => {
@@ -19384,6 +23336,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronTreads => {
@@ -19402,6 +23358,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronBundle => {
@@ -19420,6 +23380,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronHands => {
@@ -19438,6 +23402,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronJugulis => {
@@ -19456,6 +23424,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronMoth => {
@@ -19474,6 +23446,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronThorns => {
@@ -19492,6 +23468,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Frigibax => {
@@ -19510,6 +23490,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Arctibax => {
@@ -19528,6 +23512,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Baxcalibur => {
@@ -19546,6 +23534,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GimmighoulChest => {
@@ -19564,6 +23556,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("chest"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Gholdengo => {
@@ -19582,6 +23578,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WoChien => {
@@ -19600,6 +23600,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ChienPao => {
@@ -19618,6 +23622,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TingLu => {
@@ -19636,6 +23644,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ChiYu => {
@@ -19654,6 +23666,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::RoaringMoon => {
@@ -19672,6 +23688,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronValiant => {
@@ -19690,6 +23710,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::KoraidonApexBuild => {
@@ -19708,6 +23732,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("apex-build"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MiraidonUltimateMode => {
@@ -19726,6 +23754,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ultimate-mode"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::WalkingWake => {
@@ -19744,6 +23776,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronLeaves => {
@@ -19762,6 +23798,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Dipplin => {
@@ -19780,6 +23820,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PoltchageistCounterfeit => {
@@ -19798,6 +23842,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("counterfeit"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SinistchaUnremarkable => {
@@ -19816,6 +23864,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("unremarkable"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Okidogi => {
@@ -19834,6 +23886,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Munkidori => {
@@ -19852,6 +23908,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Fezandipiti => {
@@ -19870,6 +23930,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Ogerpon => {
@@ -19888,6 +23952,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Archaludon => {
@@ -19906,6 +23974,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Hydrapple => {
@@ -19924,6 +23996,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GougingFire => {
@@ -19942,6 +24018,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RagingBolt => {
@@ -19960,6 +24040,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronBoulder => {
@@ -19978,6 +24062,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IronCrown => {
@@ -19996,6 +24084,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Terapagos => {
@@ -20014,6 +24106,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Pecharunt => {
@@ -20032,6 +24128,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: None,
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::UnownB => {
@@ -20046,10 +24146,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("b"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownC => {
@@ -20064,10 +24168,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("c"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownD => {
@@ -20082,10 +24190,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("d"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownE => {
@@ -20100,10 +24212,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("e"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownF => {
@@ -20118,10 +24234,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("f"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownG => {
@@ -20136,10 +24256,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("g"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownH => {
@@ -20154,10 +24278,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("h"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownI => {
@@ -20172,10 +24300,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("i"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownJ => {
@@ -20190,10 +24322,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("j"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownK => {
@@ -20208,10 +24344,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("k"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownL => {
@@ -20226,10 +24366,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("l"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownM => {
@@ -20244,10 +24388,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("m"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownN => {
@@ -20262,10 +24410,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("n"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownO => {
@@ -20280,10 +24432,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("o"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownP => {
@@ -20298,10 +24454,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("p"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownQ => {
@@ -20316,10 +24476,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("q"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownR => {
@@ -20334,10 +24498,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("r"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownS => {
@@ -20352,10 +24520,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("s"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownT => {
@@ -20370,10 +24542,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("t"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownU => {
@@ -20388,10 +24564,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("u"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownV => {
@@ -20406,10 +24586,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("v"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownW => {
@@ -20424,10 +24608,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("w"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownX => {
@@ -20442,10 +24630,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("x"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownY => {
@@ -20460,10 +24652,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("y"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownZ => {
@@ -20478,10 +24674,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("z"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownExclamation => {
@@ -20496,10 +24696,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("exclamation"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UnownQuestion => {
@@ -20514,10 +24718,14 @@ impl SpeciesId {
                         sp_def: 48u8,
                         speed: 48u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("question"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CastformSunny => {
@@ -20532,10 +24740,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("sunny"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CastformRainy => {
@@ -20550,10 +24762,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("rainy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CastformSnowy => {
@@ -20568,10 +24784,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("snowy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DeoxysAttack => {
@@ -20586,10 +24806,14 @@ impl SpeciesId {
                         sp_def: 20u8,
                         speed: 150u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("attack"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::DeoxysDefense => {
@@ -20604,10 +24828,14 @@ impl SpeciesId {
                         sp_def: 160u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("defense"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::DeoxysSpeed => {
@@ -20622,10 +24850,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 180u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("speed"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::BurmySandy => {
@@ -20640,10 +24872,14 @@ impl SpeciesId {
                         sp_def: 45u8,
                         speed: 36u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("sandy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BurmyTrash => {
@@ -20658,10 +24894,14 @@ impl SpeciesId {
                         sp_def: 45u8,
                         speed: 36u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("trash"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WormadamSandy => {
@@ -20676,10 +24916,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 36u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sandy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WormadamTrash => {
@@ -20694,10 +24938,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 36u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("trash"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CherrimSunshine => {
@@ -20712,10 +24960,14 @@ impl SpeciesId {
                         sp_def: 78u8,
                         speed: 85u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("sunshine"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ShellosEast => {
@@ -20730,10 +24982,14 @@ impl SpeciesId {
                         sp_def: 62u8,
                         speed: 34u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("east"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GastrodonEast => {
@@ -20748,10 +25004,14 @@ impl SpeciesId {
                         sp_def: 82u8,
                         speed: 39u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("east"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ArceusBug => {
@@ -20766,10 +25026,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("bug"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusDark => {
@@ -20784,10 +25048,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("dark"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusDragon => {
@@ -20802,10 +25070,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("dragon"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusElectric => {
@@ -20820,10 +25092,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("electric"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusFighting => {
@@ -20838,10 +25114,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("fighting"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusFire => {
@@ -20856,10 +25136,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("fire"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusFlying => {
@@ -20874,10 +25158,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("flying"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusGhost => {
@@ -20892,10 +25180,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("ghost"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusGrass => {
@@ -20910,10 +25202,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("grass"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusGround => {
@@ -20928,10 +25224,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("ground"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusIce => {
@@ -20946,10 +25246,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("ice"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusPoison => {
@@ -20964,10 +25268,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("poison"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusPsychic => {
@@ -20982,10 +25290,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("psychic"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusRock => {
@@ -21000,10 +25312,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("rock"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusSteel => {
@@ -21018,10 +25334,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("steel"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusWater => {
@@ -21036,10 +25356,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("water"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusUnknown => {
@@ -21054,10 +25378,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("unknown"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::RotomHeat => {
@@ -21072,10 +25400,14 @@ impl SpeciesId {
                         sp_def: 107u8,
                         speed: 86u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("heat"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RotomWash => {
@@ -21090,10 +25422,14 @@ impl SpeciesId {
                         sp_def: 107u8,
                         speed: 86u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("wash"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RotomFrost => {
@@ -21108,10 +25444,14 @@ impl SpeciesId {
                         sp_def: 107u8,
                         speed: 86u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("frost"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RotomFan => {
@@ -21126,10 +25466,14 @@ impl SpeciesId {
                         sp_def: 107u8,
                         speed: 86u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("fan"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RotomMow => {
@@ -21144,10 +25488,14 @@ impl SpeciesId {
                         sp_def: 107u8,
                         speed: 86u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GiratinaOrigin => {
@@ -21162,10 +25510,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("origin"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ShayminSky => {
@@ -21180,10 +25532,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 127u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("sky"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::PichuSpikyEared => {
@@ -21198,10 +25554,14 @@ impl SpeciesId {
                         sp_def: 35u8,
                         speed: 60u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("spiky-eared"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BasculinBlueStriped => {
@@ -21216,10 +25576,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 98u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("blue-striped"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DarmanitanZen => {
@@ -21234,10 +25598,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 55u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("zen"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DeerlingSummer => {
@@ -21252,10 +25620,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 75u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("summer"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DeerlingAutumn => {
@@ -21270,10 +25642,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 75u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("autumn"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DeerlingWinter => {
@@ -21288,10 +25664,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 75u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("winter"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SawsbuckSummer => {
@@ -21306,10 +25686,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("summer"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SawsbuckAutumn => {
@@ -21324,10 +25708,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("autumn"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SawsbuckWinter => {
@@ -21342,10 +25730,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("winter"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeloettaPirouette => {
@@ -21360,10 +25752,14 @@ impl SpeciesId {
                         sp_def: 77u8,
                         speed: 128u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("pirouette"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::GenesectDouse => {
@@ -21378,10 +25774,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 99u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("douse"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::GenesectShock => {
@@ -21396,10 +25796,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 99u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("shock"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::GenesectBurn => {
@@ -21414,10 +25818,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 99u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("burn"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::GenesectChill => {
@@ -21432,10 +25840,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 99u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("chill"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::TornadusTherian => {
@@ -21450,10 +25862,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 121u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("therian"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ThundurusTherian => {
@@ -21468,10 +25884,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 101u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("therian"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::LandorusTherian => {
@@ -21486,10 +25906,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 91u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("therian"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::KyuremBlack => {
@@ -21504,10 +25928,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("black"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::KyuremWhite => {
@@ -21522,10 +25950,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("white"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::KeldeoResolute => {
@@ -21540,10 +25972,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 108u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("resolute"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ArceusFairy => {
@@ -21558,10 +25994,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("fairy"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::VivillonIcySnow => {
@@ -21576,10 +26016,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("icy-snow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonPolar => {
@@ -21594,10 +26038,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("polar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonTundra => {
@@ -21612,10 +26060,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("tundra"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonContinental => {
@@ -21630,10 +26082,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("continental"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonGarden => {
@@ -21648,10 +26104,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("garden"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonElegant => {
@@ -21666,10 +26126,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("elegant"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonModern => {
@@ -21684,10 +26148,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("modern"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonMarine => {
@@ -21702,10 +26170,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("marine"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonArchipelago => {
@@ -21720,10 +26192,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("archipelago"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonHighPlains => {
@@ -21738,10 +26214,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("high-plains"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonSandstorm => {
@@ -21756,10 +26236,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sandstorm"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonRiver => {
@@ -21774,10 +26258,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("river"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonMonsoon => {
@@ -21792,10 +26280,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("monsoon"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonSavanna => {
@@ -21810,10 +26302,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("savanna"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonSun => {
@@ -21828,10 +26324,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sun"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonOcean => {
@@ -21846,10 +26346,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ocean"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonJungle => {
@@ -21864,10 +26368,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("jungle"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlabebeYellow => {
@@ -21882,10 +26390,14 @@ impl SpeciesId {
                         sp_def: 79u8,
                         speed: 42u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("yellow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlabebeOrange => {
@@ -21900,10 +26412,14 @@ impl SpeciesId {
                         sp_def: 79u8,
                         speed: 42u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("orange"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlabebeBlue => {
@@ -21918,10 +26434,14 @@ impl SpeciesId {
                         sp_def: 79u8,
                         speed: 42u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("blue"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlabebeWhite => {
@@ -21936,10 +26456,14 @@ impl SpeciesId {
                         sp_def: 79u8,
                         speed: 42u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("white"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FloetteYellow => {
@@ -21954,10 +26478,14 @@ impl SpeciesId {
                         sp_def: 98u8,
                         speed: 52u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("yellow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FloetteOrange => {
@@ -21972,10 +26500,14 @@ impl SpeciesId {
                         sp_def: 98u8,
                         speed: 52u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("orange"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FloetteBlue => {
@@ -21990,10 +26522,14 @@ impl SpeciesId {
                         sp_def: 98u8,
                         speed: 52u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("blue"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FloetteWhite => {
@@ -22008,10 +26544,14 @@ impl SpeciesId {
                         sp_def: 98u8,
                         speed: 52u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("white"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlorgesYellow => {
@@ -22026,10 +26566,14 @@ impl SpeciesId {
                         sp_def: 154u8,
                         speed: 75u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("yellow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlorgesOrange => {
@@ -22044,10 +26588,14 @@ impl SpeciesId {
                         sp_def: 154u8,
                         speed: 75u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("orange"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlorgesBlue => {
@@ -22062,10 +26610,14 @@ impl SpeciesId {
                         sp_def: 154u8,
                         speed: 75u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("blue"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlorgesWhite => {
@@ -22080,10 +26632,14 @@ impl SpeciesId {
                         sp_def: 154u8,
                         speed: 75u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("white"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouHeart => {
@@ -22098,10 +26654,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("heart"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouStar => {
@@ -22116,10 +26676,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("star"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouDiamond => {
@@ -22134,10 +26698,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("diamond"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouDebutante => {
@@ -22152,10 +26720,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("debutante"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouMatron => {
@@ -22170,10 +26742,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("matron"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouDandy => {
@@ -22188,10 +26764,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("dandy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouLaReine => {
@@ -22206,10 +26786,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("la-reine"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouKabuki => {
@@ -22224,10 +26808,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("kabuki"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FurfrouPharaoh => {
@@ -22242,10 +26830,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 102u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("pharaoh"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeowsticFemale => {
@@ -22260,10 +26852,14 @@ impl SpeciesId {
                         sp_def: 81u8,
                         speed: 104u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("female"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AegislashBlade => {
@@ -22278,10 +26874,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("blade"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PumpkabooSmall => {
@@ -22296,10 +26896,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 56u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("small"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PumpkabooLarge => {
@@ -22314,10 +26918,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 46u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("large"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PumpkabooSuper => {
@@ -22332,10 +26940,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 41u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("super"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GourgeistSmall => {
@@ -22350,10 +26962,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 99u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("small"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GourgeistLarge => {
@@ -22368,10 +26984,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 69u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("large"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GourgeistSuper => {
@@ -22386,10 +27006,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 54u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("super"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::XerneasNeutral => {
@@ -22408,6 +27032,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("neutral"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::VenusaurMega => {
@@ -22422,10 +27050,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 80u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CharizardMegaX => {
@@ -22440,10 +27072,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega-x"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CharizardMegaY => {
@@ -22458,10 +27094,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega-y"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BlastoiseMega => {
@@ -22476,10 +27116,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 78u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlakazamMega => {
@@ -22494,10 +27138,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 150u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GengarMega => {
@@ -22512,10 +27160,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 130u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::KangaskhanMega => {
@@ -22530,10 +27182,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PinsirMega => {
@@ -22548,10 +27204,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 105u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GyaradosMega => {
@@ -22566,10 +27226,14 @@ impl SpeciesId {
                         sp_def: 130u8,
                         speed: 81u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AerodactylMega => {
@@ -22584,10 +27248,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 150u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MewtwoMegaX => {
@@ -22602,10 +27270,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 130u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega-x"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MewtwoMegaY => {
@@ -22620,10 +27292,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 140u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega-y"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::AmpharosMega => {
@@ -22638,10 +27314,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 45u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScizorMega => {
@@ -22656,10 +27336,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::HeracrossMega => {
@@ -22674,10 +27358,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::HoundoomMega => {
@@ -22692,10 +27380,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 115u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TyranitarMega => {
@@ -22710,10 +27402,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 71u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BlazikenMega => {
@@ -22728,10 +27424,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GardevoirMega => {
@@ -22746,10 +27446,14 @@ impl SpeciesId {
                         sp_def: 135u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MawileMega => {
@@ -22764,10 +27468,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 50u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AggronMega => {
@@ -22782,10 +27490,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 50u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MedichamMega => {
@@ -22800,10 +27512,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ManectricMega => {
@@ -22818,10 +27534,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 135u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BanetteMega => {
@@ -22836,10 +27556,14 @@ impl SpeciesId {
                         sp_def: 83u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AbsolMega => {
@@ -22854,10 +27578,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 115u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GarchompMega => {
@@ -22872,10 +27600,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LucarioMega => {
@@ -22890,10 +27622,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 112u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AbomasnowMega => {
@@ -22908,10 +27644,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonFancy => {
@@ -22926,10 +27666,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("fancy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VivillonPokeBall => {
@@ -22944,10 +27688,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 89u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("poke-ball"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FloetteEternal => {
@@ -22962,10 +27710,14 @@ impl SpeciesId {
                         sp_def: 128u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("eternal"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LatiasMega => {
@@ -22980,10 +27732,14 @@ impl SpeciesId {
                         sp_def: 150u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::LatiosMega => {
@@ -22998,10 +27754,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SwampertMega => {
@@ -23016,10 +27776,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SceptileMega => {
@@ -23034,10 +27798,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 145u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SableyeMega => {
@@ -23052,10 +27820,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 20u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AltariaMega => {
@@ -23070,10 +27842,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 80u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GalladeMega => {
@@ -23088,10 +27864,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AudinoMega => {
@@ -23106,10 +27886,14 @@ impl SpeciesId {
                         sp_def: 126u8,
                         speed: 50u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SharpedoMega => {
@@ -23124,10 +27908,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 105u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SlowbroMega => {
@@ -23142,10 +27930,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SteelixMega => {
@@ -23160,10 +27952,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PidgeotMega => {
@@ -23178,10 +27974,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 121u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GlalieMega => {
@@ -23196,10 +27996,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DiancieMega => {
@@ -23214,10 +28018,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::MetagrossMega => {
@@ -23232,10 +28040,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::KyogrePrimal => {
@@ -23250,10 +28062,14 @@ impl SpeciesId {
                         sp_def: 160u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("primal"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::GroudonPrimal => {
@@ -23268,10 +28084,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("primal"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::RayquazaMega => {
@@ -23286,10 +28106,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 115u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::PikachuRockStar => {
@@ -23304,10 +28128,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rock-star"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuBelle => {
@@ -23322,10 +28150,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("belle"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuPopStar => {
@@ -23340,10 +28172,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("pop-star"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuPhd => {
@@ -23358,10 +28194,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("phd"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuLibre => {
@@ -23376,10 +28216,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("libre"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuCosplay => {
@@ -23394,10 +28238,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("cosplay"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::HoopaUnbound => {
@@ -23412,10 +28260,14 @@ impl SpeciesId {
                         sp_def: 130u8,
                         speed: 80u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("unbound"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::CameruptMega => {
@@ -23430,10 +28282,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 20u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LopunnyMega => {
@@ -23448,10 +28304,14 @@ impl SpeciesId {
                         sp_def: 96u8,
                         speed: 135u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SalamenceMega => {
@@ -23466,10 +28326,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BeedrillMega => {
@@ -23484,10 +28348,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 145u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RattataAlola => {
@@ -23502,10 +28370,14 @@ impl SpeciesId {
                         sp_def: 35u8,
                         speed: 72u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RaticateAlola => {
@@ -23520,10 +28392,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 77u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RaticateTotemAlola => {
@@ -23538,10 +28414,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 77u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem-alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuOriginalCap => {
@@ -23556,10 +28436,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("original-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuHoennCap => {
@@ -23574,10 +28458,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hoenn-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuSinnohCap => {
@@ -23592,10 +28480,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sinnoh-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuUnovaCap => {
@@ -23610,10 +28502,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("unova-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuKalosCap => {
@@ -23628,10 +28524,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("kalos-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuAlolaCap => {
@@ -23646,10 +28546,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RaichuAlola => {
@@ -23664,10 +28568,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SandshrewAlola => {
@@ -23682,10 +28590,14 @@ impl SpeciesId {
                         sp_def: 35u8,
                         speed: 40u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SandslashAlola => {
@@ -23700,10 +28612,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 65u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VulpixAlola => {
@@ -23718,10 +28634,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 65u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::NinetalesAlola => {
@@ -23736,10 +28656,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 109u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DiglettAlola => {
@@ -23754,10 +28678,14 @@ impl SpeciesId {
                         sp_def: 45u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DugtrioAlola => {
@@ -23772,10 +28700,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeowthAlola => {
@@ -23790,10 +28722,14 @@ impl SpeciesId {
                         sp_def: 40u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PersianAlola => {
@@ -23808,10 +28744,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 115u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GeodudeAlola => {
@@ -23826,10 +28766,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 20u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GravelerAlola => {
@@ -23844,10 +28788,14 @@ impl SpeciesId {
                         sp_def: 45u8,
                         speed: 35u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GolemAlola => {
@@ -23862,10 +28810,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 45u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GrimerAlola => {
@@ -23880,10 +28832,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 25u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MukAlola => {
@@ -23898,10 +28854,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 50u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ExeggutorAlola => {
@@ -23916,10 +28876,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 45u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MarowakAlola => {
@@ -23934,10 +28898,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 45u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("alola"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GreninjaBattleBond => {
@@ -23952,10 +28920,14 @@ impl SpeciesId {
                         sp_def: 71u8,
                         speed: 122u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("battle-bond"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GreninjaAsh => {
@@ -23970,10 +28942,14 @@ impl SpeciesId {
                         sp_def: 71u8,
                         speed: 132u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ash"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zygarde10PowerConstruct => {
@@ -23988,10 +28964,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 115u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("10-power-construct"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::Zygarde50PowerConstruct => {
@@ -24006,10 +28986,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("50-power-construct"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ZygardeComplete => {
@@ -24024,10 +29008,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("complete"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::GumshoosTotem => {
@@ -24042,10 +29030,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 45u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VikavoltTotem => {
@@ -24060,10 +29052,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 43u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OricorioPomPom => {
@@ -24078,10 +29074,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 93u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("pom-pom"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OricorioPau => {
@@ -24096,10 +29096,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 93u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("pau"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OricorioSensu => {
@@ -24114,10 +29118,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 93u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sensu"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LycanrocMidnight => {
@@ -24132,10 +29140,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 82u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("midnight"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WishiwashiSchool => {
@@ -24150,10 +29162,14 @@ impl SpeciesId {
                         sp_def: 135u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("school"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LurantisTotem => {
@@ -24168,10 +29184,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 45u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SalazzleTotem => {
@@ -24186,10 +29206,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 117u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyFighting => {
@@ -24204,10 +29228,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("fighting"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyFlying => {
@@ -24222,10 +29250,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("flying"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyPoison => {
@@ -24240,10 +29272,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("poison"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyGround => {
@@ -24258,10 +29294,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ground"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyRock => {
@@ -24276,10 +29316,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rock"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyBug => {
@@ -24294,10 +29338,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("bug"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyGhost => {
@@ -24312,10 +29360,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ghost"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallySteel => {
@@ -24330,10 +29382,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("steel"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyFire => {
@@ -24348,10 +29404,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("fire"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyWater => {
@@ -24366,10 +29426,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("water"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyGrass => {
@@ -24384,10 +29448,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("grass"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyElectric => {
@@ -24402,10 +29470,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("electric"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyPsychic => {
@@ -24420,10 +29492,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("psychic"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyIce => {
@@ -24438,10 +29514,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ice"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyDragon => {
@@ -24456,10 +29536,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("dragon"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyDark => {
@@ -24474,10 +29558,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("dark"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SilvallyFairy => {
@@ -24492,10 +29580,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 95u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("fairy"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MiniorOrangeMeteor => {
@@ -24510,10 +29602,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("orange-meteor"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorYellowMeteor => {
@@ -24528,10 +29624,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("yellow-meteor"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorGreenMeteor => {
@@ -24546,10 +29646,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("green-meteor"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorBlueMeteor => {
@@ -24564,10 +29668,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("blue-meteor"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorIndigoMeteor => {
@@ -24582,10 +29690,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("indigo-meteor"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorVioletMeteor => {
@@ -24600,10 +29712,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("violet-meteor"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorRed => {
@@ -24618,10 +29734,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("red"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorOrange => {
@@ -24636,10 +29756,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("orange"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorYellow => {
@@ -24654,10 +29778,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("yellow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorGreen => {
@@ -24672,10 +29800,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("green"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorBlue => {
@@ -24690,10 +29822,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("blue"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorIndigo => {
@@ -24708,10 +29844,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("indigo"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MiniorViolet => {
@@ -24726,10 +29866,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("violet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MimikyuBusted => {
@@ -24744,10 +29888,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 96u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("busted"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MimikyuTotemDisguised => {
@@ -24762,10 +29910,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 96u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem-disguised"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MimikyuTotemBusted => {
@@ -24780,10 +29932,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 96u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem-busted"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::KommoOTotem => {
@@ -24798,10 +29954,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MagearnaOriginal => {
@@ -24816,10 +29976,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 65u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("original"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::PikachuPartnerCap => {
@@ -24834,10 +29998,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("partner-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MarowakTotem => {
@@ -24852,10 +30020,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 45u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MothimSandy => {
@@ -24870,10 +30042,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 66u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sandy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MothimTrash => {
@@ -24888,10 +30064,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 66u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("trash"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugPolar => {
@@ -24906,10 +30086,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("polar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugTundra => {
@@ -24924,10 +30108,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("tundra"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugContinental => {
@@ -24942,10 +30130,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("continental"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugGarden => {
@@ -24960,10 +30152,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("garden"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugElegant => {
@@ -24978,10 +30174,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("elegant"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugMeadow => {
@@ -24996,10 +30196,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("meadow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugModern => {
@@ -25014,10 +30218,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("modern"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugMarine => {
@@ -25032,10 +30240,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("marine"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugArchipelago => {
@@ -25050,10 +30262,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("archipelago"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugHighPlains => {
@@ -25068,10 +30284,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("high-plains"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugSandstorm => {
@@ -25086,10 +30306,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sandstorm"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugRiver => {
@@ -25104,10 +30328,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("river"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugMonsoon => {
@@ -25122,10 +30350,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("monsoon"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugSavanna => {
@@ -25140,10 +30372,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("savanna"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugSun => {
@@ -25158,10 +30394,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sun"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugOcean => {
@@ -25176,10 +30416,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ocean"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugJungle => {
@@ -25194,10 +30438,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("jungle"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugFancy => {
@@ -25212,10 +30460,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("fancy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScatterbugPokeBall => {
@@ -25230,10 +30482,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 35u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("poke-ball"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaPolar => {
@@ -25248,10 +30504,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("polar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaTundra => {
@@ -25266,10 +30526,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("tundra"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaContinental => {
@@ -25284,10 +30548,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("continental"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaGarden => {
@@ -25302,10 +30570,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("garden"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaElegant => {
@@ -25320,10 +30592,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("elegant"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaMeadow => {
@@ -25338,10 +30614,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("meadow"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaModern => {
@@ -25356,10 +30636,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("modern"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaMarine => {
@@ -25374,10 +30658,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("marine"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaArchipelago => {
@@ -25392,10 +30680,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("archipelago"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaHighPlains => {
@@ -25410,10 +30702,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("high-plains"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaSandstorm => {
@@ -25428,10 +30724,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sandstorm"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaRiver => {
@@ -25446,10 +30746,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("river"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaMonsoon => {
@@ -25464,10 +30768,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("monsoon"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaSavanna => {
@@ -25482,10 +30790,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("savanna"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaSun => {
@@ -25500,10 +30812,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sun"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaOcean => {
@@ -25518,10 +30834,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ocean"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaJungle => {
@@ -25536,10 +30856,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("jungle"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaFancy => {
@@ -25554,10 +30878,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("fancy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SpewpaPokeBall => {
@@ -25572,10 +30900,14 @@ impl SpeciesId {
                         sp_def: 30u8,
                         speed: 29u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("poke-ball"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RibombeeTotem => {
@@ -25590,10 +30922,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 124u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RockruffOwnTempo => {
@@ -25608,10 +30944,14 @@ impl SpeciesId {
                         sp_def: 40u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("own-tempo"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LycanrocDusk => {
@@ -25626,10 +30966,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("dusk"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AraquanidTotem => {
@@ -25644,10 +30988,14 @@ impl SpeciesId {
                         sp_def: 132u8,
                         speed: 42u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TogedemaruTotem => {
@@ -25662,10 +31010,14 @@ impl SpeciesId {
                         sp_def: 73u8,
                         speed: 96u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("totem"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::NecrozmaDusk => {
@@ -25680,10 +31032,14 @@ impl SpeciesId {
                         sp_def: 109u8,
                         speed: 77u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("dusk"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::NecrozmaDawn => {
@@ -25698,10 +31054,14 @@ impl SpeciesId {
                         sp_def: 127u8,
                         speed: 77u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("dawn"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::NecrozmaUltra => {
@@ -25716,10 +31076,14 @@ impl SpeciesId {
                         sp_def: 97u8,
                         speed: 129u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ultra"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::PikachuStarter => {
@@ -25734,10 +31098,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("starter"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EeveeStarter => {
@@ -25752,10 +31120,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("starter"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuWorldCap => {
@@ -25770,10 +31142,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("world-cap"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeowthGalar => {
@@ -25788,10 +31164,14 @@ impl SpeciesId {
                         sp_def: 40u8,
                         speed: 40u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PonytaGalar => {
@@ -25806,10 +31186,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RapidashGalar => {
@@ -25824,10 +31208,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 105u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SlowpokeGalar => {
@@ -25842,10 +31230,14 @@ impl SpeciesId {
                         sp_def: 40u8,
                         speed: 15u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SlowbroGalar => {
@@ -25860,10 +31252,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FarfetchdGalar => {
@@ -25878,10 +31274,14 @@ impl SpeciesId {
                         sp_def: 62u8,
                         speed: 55u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WeezingGalar => {
@@ -25896,10 +31296,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MrMimeGalar => {
@@ -25914,10 +31318,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ArticunoGalar => {
@@ -25932,10 +31340,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ZapdosGalar => {
@@ -25950,10 +31362,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MoltresGalar => {
@@ -25968,10 +31384,14 @@ impl SpeciesId {
                         sp_def: 125u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::SlowkingGalar => {
@@ -25986,10 +31406,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CorsolaGalar => {
@@ -26004,10 +31428,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ZigzagoonGalar => {
@@ -26022,10 +31450,14 @@ impl SpeciesId {
                         sp_def: 41u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LinooneGalar => {
@@ -26040,10 +31472,14 @@ impl SpeciesId {
                         sp_def: 61u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DarumakaGalar => {
@@ -26058,10 +31494,14 @@ impl SpeciesId {
                         sp_def: 45u8,
                         speed: 50u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DarmanitanGalarStandard => {
@@ -26076,10 +31516,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("galar-standard"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DarmanitanGalarZen => {
@@ -26094,10 +31538,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 135u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("galar-zen"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::YamaskGalar => {
@@ -26112,10 +31560,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::StunfiskGalar => {
@@ -26130,10 +31582,14 @@ impl SpeciesId {
                         sp_def: 84u8,
                         speed: 32u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("galar"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::Zygarde10 => {
@@ -26148,10 +31604,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 115u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("10"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::CramorantGulping => {
@@ -26166,10 +31626,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("gulping"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CramorantGorging => {
@@ -26184,10 +31648,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("gorging"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ToxtricityLowKey => {
@@ -26202,10 +31670,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("low-key"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SinisteaAntique => {
@@ -26220,10 +31692,14 @@ impl SpeciesId {
                         sp_def: 54u8,
                         speed: 50u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("antique"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PolteageistAntique => {
@@ -26238,10 +31714,14 @@ impl SpeciesId {
                         sp_def: 114u8,
                         speed: 70u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("antique"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubyCreamStrawberrySweet => {
@@ -26256,10 +31736,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-cream-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMatchaCreamStrawberrySweet => {
@@ -26274,10 +31758,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("matcha-cream-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMintCreamStrawberrySweet => {
@@ -26292,10 +31780,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mint-cream-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieLemonCreamStrawberrySweet => {
@@ -26310,10 +31802,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("lemon-cream-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieSaltedCreamStrawberrySweet => {
@@ -26328,10 +31824,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("salted-cream-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubySwirlStrawberrySweet => {
@@ -26346,10 +31846,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-swirl-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieCaramelSwirlStrawberrySweet => {
@@ -26364,10 +31868,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("caramel-swirl-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRainbowSwirlStrawberrySweet => {
@@ -26382,10 +31890,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rainbow-swirl-strawberry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EiscueNoice => {
@@ -26400,10 +31912,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 130u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("noice"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::IndeedeeFemale => {
@@ -26418,10 +31934,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("female"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MorpekoHangry => {
@@ -26436,10 +31956,14 @@ impl SpeciesId {
                         sp_def: 58u8,
                         speed: 97u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hangry"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ZacianCrowned => {
@@ -26454,10 +31978,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 148u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("crowned"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ZamazentaCrowned => {
@@ -26472,10 +32000,14 @@ impl SpeciesId {
                         sp_def: 140u8,
                         speed: 128u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("crowned"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::EternatusEternamax => {
@@ -26490,10 +32022,14 @@ impl SpeciesId {
                         sp_def: 250u8,
                         speed: 130u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("eternamax"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::UrshifuRapidStrike => {
@@ -26508,10 +32044,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 97u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rapid-strike"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ZarudeDada => {
@@ -26526,10 +32066,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 105u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("dada"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::CalyrexIce => {
@@ -26544,10 +32088,14 @@ impl SpeciesId {
                         sp_def: 130u8,
                         speed: 50u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ice"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::CalyrexShadow => {
@@ -26562,10 +32110,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 150u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("shadow"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::VenusaurGmax => {
@@ -26580,10 +32132,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 80u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: true,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CharizardGmax => {
@@ -26598,10 +32154,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: true,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BlastoiseGmax => {
@@ -26616,10 +32176,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 78u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: true,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ButterfreeGmax => {
@@ -26634,10 +32198,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PikachuGmax => {
@@ -26652,10 +32220,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeowthGmax => {
@@ -26670,10 +32242,14 @@ impl SpeciesId {
                         sp_def: 40u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MachampGmax => {
@@ -26688,10 +32264,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 55u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GengarGmax => {
@@ -26706,10 +32286,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: true,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::KinglerGmax => {
@@ -26724,10 +32308,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LaprasGmax => {
@@ -26742,10 +32330,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EeveeGmax => {
@@ -26760,10 +32352,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 55u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SnorlaxGmax => {
@@ -26778,10 +32374,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GarbodorGmax => {
@@ -26796,10 +32396,14 @@ impl SpeciesId {
                         sp_def: 82u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MelmetalGmax => {
@@ -26814,10 +32418,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 34u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::RillaboomGmax => {
@@ -26832,10 +32440,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CinderaceGmax => {
@@ -26850,10 +32462,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 119u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::InteleonGmax => {
@@ -26868,10 +32484,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CorviknightGmax => {
@@ -26886,10 +32506,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 67u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OrbeetleGmax => {
@@ -26904,10 +32528,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DrednawGmax => {
@@ -26922,10 +32550,14 @@ impl SpeciesId {
                         sp_def: 68u8,
                         speed: 74u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CoalossalGmax => {
@@ -26940,10 +32572,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FlappleGmax => {
@@ -26958,10 +32594,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AppletunGmax => {
@@ -26976,10 +32616,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SandacondaGmax => {
@@ -26994,10 +32638,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 71u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ToxtricityAmpedGmax => {
@@ -27012,10 +32660,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CentiskorchGmax => {
@@ -27030,10 +32682,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 65u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::HattereneGmax => {
@@ -27048,10 +32704,14 @@ impl SpeciesId {
                         sp_def: 103u8,
                         speed: 29u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GrimmsnarlGmax => {
@@ -27066,10 +32726,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieGmax => {
@@ -27084,10 +32748,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CopperajahGmax => {
@@ -27102,10 +32770,14 @@ impl SpeciesId {
                         sp_def: 69u8,
                         speed: 30u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DuraludonGmax => {
@@ -27120,10 +32792,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::UrshifuSingleStrikeGmax => {
@@ -27138,10 +32814,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 97u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::UrshifuRapidStrikeGmax => {
@@ -27156,10 +32836,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 97u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::ToxtricityLowKeyGmax => {
@@ -27174,10 +32858,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: true,
+                    form_switchable: false,
+                    form_identifier: Some("gmax"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GrowlitheHisui => {
@@ -27192,10 +32880,14 @@ impl SpeciesId {
                         sp_def: 50u8,
                         speed: 55u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ArcanineHisui => {
@@ -27210,10 +32902,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VoltorbHisui => {
@@ -27228,10 +32924,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ElectrodeHisui => {
@@ -27246,10 +32946,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 150u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TyphlosionHisui => {
@@ -27264,10 +32968,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::QwilfishHisui => {
@@ -27282,10 +32990,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SneaselHisui => {
@@ -27300,10 +33012,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 115u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SamurottHisui => {
@@ -27318,10 +33034,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LilligantHisui => {
@@ -27336,10 +33056,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 105u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ZoruaHisui => {
@@ -27354,10 +33078,14 @@ impl SpeciesId {
                         sp_def: 40u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ZoroarkHisui => {
@@ -27372,10 +33100,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BraviaryHisui => {
@@ -27390,10 +33122,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 65u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SliggooHisui => {
@@ -27408,10 +33144,14 @@ impl SpeciesId {
                         sp_def: 113u8,
                         speed: 40u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GoodraHisui => {
@@ -27426,10 +33166,14 @@ impl SpeciesId {
                         sp_def: 150u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AvaluggHisui => {
@@ -27444,10 +33188,14 @@ impl SpeciesId {
                         sp_def: 36u8,
                         speed: 38u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DecidueyeHisui => {
@@ -27462,10 +33210,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 60u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hisui"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DialgaOrigin => {
@@ -27480,10 +33232,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("origin"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::PalkiaOrigin => {
@@ -27498,10 +33254,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("origin"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::BasculinWhiteStriped => {
@@ -27516,10 +33276,14 @@ impl SpeciesId {
                         sp_def: 55u8,
                         speed: 98u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("white-striped"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BasculegionFemale => {
@@ -27534,10 +33298,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 78u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("female"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EnamorusTherian => {
@@ -27552,10 +33320,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 46u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("therian"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TaurosPaldeaCombatBreed => {
@@ -27570,10 +33342,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("paldea-combat-breed"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TaurosPaldeaBlazeBreed => {
@@ -27588,10 +33364,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("paldea-blaze-breed"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TaurosPaldeaAquaBreed => {
@@ -27606,10 +33386,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("paldea-aqua-breed"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::WooperPaldea => {
@@ -27624,10 +33408,14 @@ impl SpeciesId {
                         sp_def: 25u8,
                         speed: 15u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("paldea"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OinkologneFemale => {
@@ -27642,10 +33430,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 65u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("female"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DudunsparceThreeSegment => {
@@ -27660,10 +33452,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 55u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("three-segment"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PalafinHero => {
@@ -27678,10 +33474,14 @@ impl SpeciesId {
                         sp_def: 87u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hero"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MausholdFamilyOfThree => {
@@ -27696,10 +33496,14 @@ impl SpeciesId {
                         sp_def: 75u8,
                         speed: 111u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("family-of-three"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TatsugiriDroopy => {
@@ -27714,10 +33518,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 82u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("droopy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TatsugiriStretchy => {
@@ -27732,10 +33540,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 82u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("stretchy"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SquawkabillyBluePlumage => {
@@ -27750,10 +33562,14 @@ impl SpeciesId {
                         sp_def: 51u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("blue-plumage"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SquawkabillyYellowPlumage => {
@@ -27768,10 +33584,14 @@ impl SpeciesId {
                         sp_def: 51u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("yellow-plumage"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SquawkabillyWhitePlumage => {
@@ -27786,10 +33606,14 @@ impl SpeciesId {
                         sp_def: 51u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("white-plumage"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GimmighoulRoaming => {
@@ -27804,10 +33628,14 @@ impl SpeciesId {
                         sp_def: 45u8,
                         speed: 80u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("roaming"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::KoraidonLimitedBuild => {
@@ -27826,6 +33654,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("limited-build"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::KoraidonSprintingBuild => {
@@ -27844,6 +33676,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("sprinting-build"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::KoraidonSwimmingBuild => {
@@ -27862,6 +33698,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("swimming-build"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::KoraidonGlidingBuild => {
@@ -27880,6 +33720,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("gliding-build"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MiraidonLowPowerMode => {
@@ -27898,6 +33742,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("low-power-mode"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MiraidonDriveMode => {
@@ -27916,6 +33764,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("drive-mode"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MiraidonAquaticMode => {
@@ -27934,6 +33786,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("aquatic-mode"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::MiraidonGlideMode => {
@@ -27952,6 +33808,10 @@ impl SpeciesId {
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("glide-mode"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::UrsalunaBloodmoon => {
@@ -27966,10 +33826,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 52u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("bloodmoon"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::OgerponWellspringMask => {
@@ -27984,10 +33848,14 @@ impl SpeciesId {
                         sp_def: 96u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("wellspring-mask"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::OgerponHearthflameMask => {
@@ -28002,10 +33870,14 @@ impl SpeciesId {
                         sp_def: 96u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("hearthflame-mask"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::OgerponCornerstoneMask => {
@@ -28020,10 +33892,14 @@ impl SpeciesId {
                         sp_def: 96u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("cornerstone-mask"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TerapagosTerastal => {
@@ -28038,10 +33914,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("terastal"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::TerapagosStellar => {
@@ -28056,10 +33936,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("stellar"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::PoltchageistArtisan => {
@@ -28074,10 +33958,14 @@ impl SpeciesId {
                         sp_def: 54u8,
                         speed: 50u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("artisan"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SinistchaMasterpiece => {
@@ -28092,10 +33980,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 70u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("masterpiece"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieVanillaCreamBerrySweet => {
@@ -28110,10 +34002,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("vanilla-cream-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubyCreamBerrySweet => {
@@ -28128,10 +34024,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-cream-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMatchaCreamBerrySweet => {
@@ -28146,10 +34046,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("matcha-cream-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMintCreamBerrySweet => {
@@ -28164,10 +34068,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mint-cream-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieLemonCreamBerrySweet => {
@@ -28182,10 +34090,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("lemon-cream-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieSaltedCreamBerrySweet => {
@@ -28200,10 +34112,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("salted-cream-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubySwirlBerrySweet => {
@@ -28218,10 +34134,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-swirl-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieCaramelSwirlBerrySweet => {
@@ -28236,10 +34156,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("caramel-swirl-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRainbowSwirlBerrySweet => {
@@ -28254,10 +34178,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rainbow-swirl-berry-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieVanillaCreamLoveSweet => {
@@ -28272,10 +34200,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("vanilla-cream-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubyCreamLoveSweet => {
@@ -28290,10 +34222,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-cream-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMatchaCreamLoveSweet => {
@@ -28308,10 +34244,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("matcha-cream-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMintCreamLoveSweet => {
@@ -28326,10 +34266,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mint-cream-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieLemonCreamLoveSweet => {
@@ -28344,10 +34288,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("lemon-cream-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieSaltedCreamLoveSweet => {
@@ -28362,10 +34310,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("salted-cream-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubySwirlLoveSweet => {
@@ -28380,10 +34332,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-swirl-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieCaramelSwirlLoveSweet => {
@@ -28398,10 +34354,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("caramel-swirl-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRainbowSwirlLoveSweet => {
@@ -28416,10 +34376,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rainbow-swirl-love-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieVanillaCreamStarSweet => {
@@ -28434,10 +34398,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("vanilla-cream-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubyCreamStarSweet => {
@@ -28452,10 +34420,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-cream-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMatchaCreamStarSweet => {
@@ -28470,10 +34442,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("matcha-cream-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMintCreamStarSweet => {
@@ -28488,10 +34464,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mint-cream-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieLemonCreamStarSweet => {
@@ -28506,10 +34486,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("lemon-cream-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieSaltedCreamStarSweet => {
@@ -28524,10 +34508,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("salted-cream-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubySwirlStarSweet => {
@@ -28542,10 +34530,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-swirl-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieCaramelSwirlStarSweet => {
@@ -28560,10 +34552,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("caramel-swirl-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRainbowSwirlStarSweet => {
@@ -28578,10 +34574,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rainbow-swirl-star-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieVanillaCreamCloverSweet => {
@@ -28596,10 +34596,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("vanilla-cream-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubyCreamCloverSweet => {
@@ -28614,10 +34618,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-cream-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMatchaCreamCloverSweet => {
@@ -28632,10 +34640,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("matcha-cream-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMintCreamCloverSweet => {
@@ -28650,10 +34662,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mint-cream-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieLemonCreamCloverSweet => {
@@ -28668,10 +34684,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("lemon-cream-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieSaltedCreamCloverSweet => {
@@ -28686,10 +34706,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("salted-cream-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubySwirlCloverSweet => {
@@ -28704,10 +34728,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-swirl-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieCaramelSwirlCloverSweet => {
@@ -28722,10 +34750,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("caramel-swirl-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRainbowSwirlCloverSweet => {
@@ -28740,10 +34772,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rainbow-swirl-clover-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieVanillaCreamFlowerSweet => {
@@ -28758,10 +34794,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("vanilla-cream-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubyCreamFlowerSweet => {
@@ -28776,10 +34816,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-cream-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMatchaCreamFlowerSweet => {
@@ -28794,10 +34838,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("matcha-cream-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMintCreamFlowerSweet => {
@@ -28812,10 +34860,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mint-cream-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieLemonCreamFlowerSweet => {
@@ -28830,10 +34882,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("lemon-cream-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieSaltedCreamFlowerSweet => {
@@ -28848,10 +34904,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("salted-cream-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubySwirlFlowerSweet => {
@@ -28866,10 +34926,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-swirl-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieCaramelSwirlFlowerSweet => {
@@ -28884,10 +34948,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("caramel-swirl-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRainbowSwirlFlowerSweet => {
@@ -28902,10 +34970,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rainbow-swirl-flower-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieVanillaCreamRibbonSweet => {
@@ -28920,10 +34992,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("vanilla-cream-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubyCreamRibbonSweet => {
@@ -28938,10 +35014,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-cream-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMatchaCreamRibbonSweet => {
@@ -28956,10 +35036,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("matcha-cream-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieMintCreamRibbonSweet => {
@@ -28974,10 +35058,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mint-cream-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieLemonCreamRibbonSweet => {
@@ -28992,10 +35080,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("lemon-cream-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieSaltedCreamRibbonSweet => {
@@ -29010,10 +35102,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("salted-cream-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRubySwirlRibbonSweet => {
@@ -29028,10 +35124,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("ruby-swirl-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieCaramelSwirlRibbonSweet => {
@@ -29046,10 +35146,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("caramel-swirl-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AlcremieRainbowSwirlRibbonSweet => {
@@ -29064,10 +35168,14 @@ impl SpeciesId {
                         sp_def: 121u8,
                         speed: 64u8,
                     },
-                    is_default_form: false,
+                    is_default_form: true,
                     is_battle_only: false,
                     is_mega: false,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("rainbow-swirl-ribbon-sweet"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ClefableMega => {
@@ -29082,10 +35190,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::VictreebelMega => {
@@ -29100,10 +35212,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 70u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::StarmieMega => {
@@ -29118,10 +35234,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DragoniteMega => {
@@ -29136,10 +35256,14 @@ impl SpeciesId {
                         sp_def: 125u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeganiumMega => {
@@ -29154,10 +35278,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 80u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FeraligatrMega => {
@@ -29172,10 +35300,14 @@ impl SpeciesId {
                         sp_def: 93u8,
                         speed: 78u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::SkarmoryMega => {
@@ -29190,10 +35322,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FroslassMega => {
@@ -29208,10 +35344,14 @@ impl SpeciesId {
                         sp_def: 100u8,
                         speed: 120u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EmboarMega => {
@@ -29226,10 +35366,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ExcadrillMega => {
@@ -29244,10 +35388,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 103u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScolipedeMega => {
@@ -29262,10 +35410,14 @@ impl SpeciesId {
                         sp_def: 99u8,
                         speed: 62u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ScraftyMega => {
@@ -29280,10 +35432,14 @@ impl SpeciesId {
                         sp_def: 135u8,
                         speed: 68u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::EelektrossMega => {
@@ -29298,10 +35454,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 80u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ChandelureMega => {
@@ -29316,10 +35476,14 @@ impl SpeciesId {
                         sp_def: 110u8,
                         speed: 90u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ChesnaughtMega => {
@@ -29334,10 +35498,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 44u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DelphoxMega => {
@@ -29352,10 +35520,14 @@ impl SpeciesId {
                         sp_def: 125u8,
                         speed: 134u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GreninjaMega => {
@@ -29370,10 +35542,14 @@ impl SpeciesId {
                         sp_def: 81u8,
                         speed: 142u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::PyroarMega => {
@@ -29388,10 +35564,14 @@ impl SpeciesId {
                         sp_def: 86u8,
                         speed: 126u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FloetteMega => {
@@ -29406,10 +35586,14 @@ impl SpeciesId {
                         sp_def: 148u8,
                         speed: 102u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MalamarMega => {
@@ -29424,10 +35608,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 88u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BarbaracleMega => {
@@ -29442,10 +35630,14 @@ impl SpeciesId {
                         sp_def: 106u8,
                         speed: 88u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::DragalgeMega => {
@@ -29460,10 +35652,14 @@ impl SpeciesId {
                         sp_def: 163u8,
                         speed: 44u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::HawluchaMega => {
@@ -29478,10 +35674,14 @@ impl SpeciesId {
                         sp_def: 93u8,
                         speed: 118u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ZygardeMega => {
@@ -29496,10 +35696,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::DrampaMega => {
@@ -29514,10 +35718,14 @@ impl SpeciesId {
                         sp_def: 116u8,
                         speed: 36u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::FalinksMega => {
@@ -29532,10 +35740,14 @@ impl SpeciesId {
                         sp_def: 65u8,
                         speed: 100u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RaichuMegaX => {
@@ -29550,10 +35762,14 @@ impl SpeciesId {
                         sp_def: 95u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega-x"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::RaichuMegaY => {
@@ -29568,10 +35784,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 130u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega-y"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::ChimechoMega => {
@@ -29586,10 +35806,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 65u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::AbsolMegaZ => {
@@ -29604,10 +35828,14 @@ impl SpeciesId {
                         sp_def: 60u8,
                         speed: 151u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega-z"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::StaraptorMega => {
@@ -29622,10 +35850,14 @@ impl SpeciesId {
                         sp_def: 90u8,
                         speed: 110u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GarchompMegaZ => {
@@ -29640,10 +35872,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 151u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega-z"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::LucarioMegaZ => {
@@ -29658,10 +35894,14 @@ impl SpeciesId {
                         sp_def: 70u8,
                         speed: 151u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: true,
+                    form_identifier: Some("mega-z"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::HeatranMega => {
@@ -29676,10 +35916,14 @@ impl SpeciesId {
                         sp_def: 141u8,
                         speed: 67u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: true,
+                    is_mythical: false,
                 }
             }
             Self::DarkraiMega => {
@@ -29694,10 +35938,14 @@ impl SpeciesId {
                         sp_def: 130u8,
                         speed: 85u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::GolurkMega => {
@@ -29712,10 +35960,14 @@ impl SpeciesId {
                         sp_def: 105u8,
                         speed: 55u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MeowsticMega => {
@@ -29730,10 +35982,14 @@ impl SpeciesId {
                         sp_def: 101u8,
                         speed: 124u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::CrabominableMega => {
@@ -29748,10 +36004,14 @@ impl SpeciesId {
                         sp_def: 107u8,
                         speed: 33u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GolisopodMega => {
@@ -29766,10 +36026,14 @@ impl SpeciesId {
                         sp_def: 120u8,
                         speed: 40u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::MagearnaMega => {
@@ -29784,10 +36048,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::MagearnaOriginalMega => {
@@ -29802,10 +36070,14 @@ impl SpeciesId {
                         sp_def: 115u8,
                         speed: 95u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ZeraoraMega => {
@@ -29820,10 +36092,14 @@ impl SpeciesId {
                         sp_def: 80u8,
                         speed: 153u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: true,
                 }
             }
             Self::ScovillainMega => {
@@ -29838,10 +36114,14 @@ impl SpeciesId {
                         sp_def: 85u8,
                         speed: 75u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::GlimmoraMega => {
@@ -29856,10 +36136,14 @@ impl SpeciesId {
                         sp_def: 96u8,
                         speed: 101u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TatsugiriCurlyMega => {
@@ -29874,10 +36158,14 @@ impl SpeciesId {
                         sp_def: 125u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TatsugiriDroopyMega => {
@@ -29892,10 +36180,14 @@ impl SpeciesId {
                         sp_def: 125u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::TatsugiriStretchyMega => {
@@ -29910,10 +36202,14 @@ impl SpeciesId {
                         sp_def: 125u8,
                         speed: 92u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
             Self::BaxcaliburMega => {
@@ -29928,10 +36224,14 @@ impl SpeciesId {
                         sp_def: 101u8,
                         speed: 87u8,
                     },
-                    is_default_form: true,
+                    is_default_form: false,
                     is_battle_only: true,
                     is_mega: true,
                     is_gmax: false,
+                    form_switchable: false,
+                    form_identifier: Some("mega"),
+                    is_legendary: false,
+                    is_mythical: false,
                 }
             }
         }
