@@ -2,8 +2,6 @@ use crate::types::nature::Nature;
 use strum_macros::{Display, EnumIter, FromRepr};
 
 #[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, EnumIter, Display, FromRepr)]
-#[cfg_attr(feature = "mem_dbg", derive(mem_dbg::MemSize, mem_dbg::MemDbg))]
-#[cfg_attr(feature = "mem_dbg", mem_size_flat)]
 #[repr(u8)]
 pub enum Stat {
     Hp = 1,
@@ -47,8 +45,6 @@ impl Stat {
 }
 
 #[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, EnumIter, Display, FromRepr)]
-#[cfg_attr(feature = "mem_dbg", derive(mem_dbg::MemSize, mem_dbg::MemDbg))]
-#[cfg_attr(feature = "mem_dbg", mem_size_flat)]
 #[repr(u8)]
 pub enum ExtendedStat {
     Hp = 1,
@@ -62,9 +58,20 @@ pub enum ExtendedStat {
     Special = 9,
 }
 
-#[derive(Debug, Default, Copy, Clone, PartialEq, Eq, PartialOrd, Ord)]
-#[cfg_attr(feature = "mem_dbg", derive(mem_dbg::MemSize, mem_dbg::MemDbg))]
-#[cfg_attr(feature = "mem_dbg", mem_size_flat)]
+#[derive(
+    Debug,
+    Default,
+    Copy,
+    Clone,
+    PartialEq,
+    Eq,
+    PartialOrd,
+    Ord,
+    bitcode::Encode,
+    bitcode::Decode,
+    serde::Serialize,
+    serde::Deserialize,
+)]
 pub struct Stats<T> {
     pub hp: T,
     pub atk: T,

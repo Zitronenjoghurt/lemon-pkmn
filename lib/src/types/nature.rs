@@ -5,8 +5,6 @@ use strum_macros::{Display, EnumIter, FromRepr};
 /// - https://github.com/PokeAPI/pokeapi/blob/master/data/v2/csv/natures.csv
 /// - https://bulbapedia.bulbagarden.net/wiki/Nature
 #[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, EnumIter, Display, FromRepr)]
-#[cfg_attr(feature = "mem_dbg", derive(mem_dbg::MemSize, mem_dbg::MemDbg))]
-#[cfg_attr(feature = "mem_dbg", mem_size_flat)]
 #[repr(u8)]
 pub enum Nature {
     Hardy = 1,

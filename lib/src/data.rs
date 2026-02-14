@@ -1,37 +1,58 @@
 use crate::data::moves::MoveId;
 use crate::data::species::SpeciesId;
+use crate::error::{PkmnError, PkmnResult};
 use crate::types::move_damage_class::MoveDamageClass;
 use crate::types::move_target::MoveTarget;
 use crate::types::pokemon_type::PokemonType;
 use crate::types::species_flags::SpeciesFlags;
 use crate::types::stats::Stats;
+use std::collections::HashMap;
 
 pub mod moves;
 pub mod species;
 
-#[derive(Debug)]
-#[cfg_attr(feature = "mem_dbg", derive(mem_dbg::MemSize, mem_dbg::MemDbg))]
+const RAW_DATA: &[u8] = include_bytes!("../../data.bin");
+
+#[derive(Debug, bitcode::Encode, bitcode::Decode, serde::Serialize, serde::Deserialize)]
+pub struct Data {
+    pub species: HashMap<u16, SpeciesData>,
+    pub moves: HashMap<u16, MoveData>,
+}
+
+impl Data {
+    pub fn load_included() -> PkmnResult<Self> {
+        let decompressed = zstd::decode_all(RAW_DATA)?;
+        Ok(bitcode::decode(&decompressed)?)
+    }
+
+    pub fn get_species(&self, species_id: SpeciesId) -> PkmnResult<&SpeciesData> {
+        self.species
+            .get(&(species_id as u16))
+            .ok_or(PkmnError::SpeciesNotFound(species_id))
+    }
+
+    pub fn get_move(&self, move_id: MoveId) -> PkmnResult<&MoveData> {
+        self.moves
+            .get(&(move_id as u16))
+            .ok_or(PkmnError::MoveNotFound(move_id))
+    }
+}
+
+#[derive(Debug, bitcode::Encode, bitcode::Decode, serde::Serialize, serde::Deserialize)]
 pub struct SpeciesData {
-    pub identifier: &'static str,
+    pub identifier: String,
     pub national_dex: u16,
     pub primary_type: PokemonType,
     pub secondary_type: Option<PokemonType>,
     pub base_stats: Stats<u8>,
     pub ev_yield: Stats<u8>,
-    pub form_identifier: Option<&'static str>,
-    pub flags: u8,
+    pub form_identifier: Option<String>,
+    pub flags: SpeciesFlags,
 }
 
-impl SpeciesData {
-    pub fn flags(&self) -> SpeciesFlags {
-        SpeciesFlags::from_bits_truncate(self.flags)
-    }
-}
-
-#[derive(Debug)]
-#[cfg_attr(feature = "mem_dbg", derive(mem_dbg::MemSize, mem_dbg::MemDbg))]
+#[derive(Debug, bitcode::Encode, bitcode::Decode, serde::Serialize, serde::Deserialize)]
 pub struct MoveData {
-    pub identifier: &'static str,
+    pub identifier: String,
     pub pokemon_type: PokemonType,
     pub power: u8,
     pub pp: u8,
@@ -41,31 +62,21 @@ pub struct MoveData {
     pub damage_class: MoveDamageClass,
 }
 
-#[cfg(feature = "mem_dbg")]
-pub fn print_data_size() {
-    use mem_dbg::{MemSize, SizeFlags};
+#[cfg(test)]
+mod tests {
+    use super::*;
     use strum::IntoEnumIterator;
 
-    let species_total: usize = SpeciesId::iter()
-        .map(|s| s.data().mem_size(SizeFlags::default()))
-        .sum();
+    #[test]
+    fn test_included_data() {
+        let data = Data::load_included().unwrap();
 
-    let move_total: usize = MoveId::iter()
-        .map(|m| m.data().mem_size(SizeFlags::default()))
-        .sum();
+        for species_id in SpeciesId::iter() {
+            data.get_species(species_id).unwrap();
+        }
 
-    println!(
-        "Species data: {:.1}KB ({} entries)",
-        species_total as f64 / 1024.0,
-        SpeciesId::iter().len()
-    );
-    println!(
-        "Move data:    {:.1}KB ({} entries)",
-        move_total as f64 / 1024.0,
-        MoveId::iter().len()
-    );
-    println!(
-        "Total:        {:.1}KB",
-        (species_total + move_total) as f64 / 1024.0
-    );
+        for move_id in MoveId::iter() {
+            data.get_move(move_id).unwrap();
+        }
+    }
 }

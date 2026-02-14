@@ -1,19 +1,17 @@
+use crate::code_generator::CodeGenerator;
+use crate::data_generator::DataGenerator;
 use crate::fetcher::Fetcher;
-use crate::generator::Generator;
-use lemon_pkmn::data::print_data_size;
 use std::path::PathBuf;
 use tracing_subscriber::EnvFilter;
 
+mod code_generator;
+mod data_generator;
 mod fetcher;
-mod generator;
 mod parser;
 
 #[tokio::main]
 async fn main() {
     init_logging();
-
-    println!("Previous data size:");
-    print_data_size();
 
     let data_dir = PathBuf::from("./data");
     if !data_dir.exists() {
@@ -23,8 +21,15 @@ async fn main() {
 
     let parsed_data = parser::Parser::new(data_dir).parse_all().unwrap();
 
-    let output_dir = PathBuf::from("./lib/src/data");
-    Generator::new(output_dir).generate(&parsed_data).unwrap();
+    let codegen_dir = PathBuf::from("./lib/src/data");
+    CodeGenerator::new(codegen_dir)
+        .generate(&parsed_data)
+        .unwrap();
+
+    let data_file = PathBuf::from("./data.bin");
+    DataGenerator::new(&data_file)
+        .generate(parsed_data)
+        .unwrap();
 }
 
 fn init_logging() {

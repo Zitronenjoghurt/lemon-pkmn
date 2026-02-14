@@ -4,11 +4,11 @@ use std::path::PathBuf;
 mod moves;
 mod species;
 
-pub struct Generator {
+pub struct CodeGenerator {
     output_dir: PathBuf,
 }
 
-impl Generator {
+impl CodeGenerator {
     pub fn new(output_dir: PathBuf) -> Self {
         Self { output_dir }
     }
