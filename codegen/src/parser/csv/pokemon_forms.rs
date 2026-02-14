@@ -6,6 +6,7 @@ pub struct PokemonFormsRecord {
     pub identifier: String,
     pub form_identifier: Option<String>,
     pub pokemon_id: u16,
+    pub introduced_in_version_group_id: u8,
     pub is_battle_only: u8,
     pub is_mega: u8,
 }

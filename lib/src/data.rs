@@ -7,6 +7,7 @@ use crate::types::move_target::MoveTarget;
 use crate::types::pokemon_type::PokemonType;
 use crate::types::species_flags::SpeciesFlags;
 use crate::types::stats::Stats;
+use crate::types::version_group::VersionGroup;
 use std::collections::HashMap;
 
 pub mod move_id;
@@ -57,6 +58,7 @@ pub struct SpeciesData {
     pub form_identifier: Option<String>,
     pub flags: SpeciesFlags,
     pub moveset: Moveset,
+    pub first_appearance: VersionGroup,
 }
 
 #[derive(Debug)]

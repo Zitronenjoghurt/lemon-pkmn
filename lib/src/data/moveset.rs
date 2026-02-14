@@ -41,6 +41,7 @@ impl Moveset {
             .filter(|e| matches!(e.method, MoveMethod::LevelUp) && e.level <= level)
             .collect();
         level_up_moves.sort_by(|a, b| a.level.cmp(&b.level).then_with(|| a.order.cmp(&b.order)));
+        level_up_moves.dedup_by_key(|e| e.move_id);
 
         level_up_moves
             .iter()

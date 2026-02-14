@@ -25,8 +25,15 @@ pub struct StoredPokemonGenerator {
 impl StoredPokemonGenerator {
     pub fn generate<R: rand::Rng>(&self, rng: &mut R, data: &Data) -> PkmnResult<StoredPokemon> {
         let species_id = self.species_id.generate(rng);
-        let level = self.level.generate(rng);
+        let species = data.get_species(species_id)?;
         let vg = self.version_group.generate(rng);
+        let vg = if vg.chronological_index() < species.first_appearance.chronological_index() {
+            species.first_appearance
+        } else {
+            vg
+        };
+
+        let level = self.level.generate(rng);
         let moves = self.moves.generate(data, vg, species_id, level)?;
         let evs = self.evs.generate(rng);
         let ivs = self.ivs.generate(rng);
@@ -39,6 +46,7 @@ impl StoredPokemonGenerator {
             ivs,
             nature,
             level,
+            version_group: vg,
         })
     }
 

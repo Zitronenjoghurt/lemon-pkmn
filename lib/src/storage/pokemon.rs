@@ -2,8 +2,9 @@ use crate::data::species_id::SpeciesId;
 use crate::storage::pokemon_move::StoredMove;
 use crate::types::nature::Nature;
 use crate::types::stats::Stats;
+use crate::types::version_group::VersionGroup;
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct StoredPokemon {
     pub species_id: SpeciesId,
     pub moves: [Option<StoredMove>; 4],
@@ -15,4 +16,5 @@ pub struct StoredPokemon {
     pub ivs: Stats<u8>,
     pub nature: Nature,
     pub level: u8,
+    pub version_group: VersionGroup,
 }

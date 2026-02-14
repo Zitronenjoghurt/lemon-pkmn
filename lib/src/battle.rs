@@ -1,8 +1,7 @@
-use crate::battle::participant::BattleParticipant;
+use crate::battle::team::BattleTeam;
 
 mod action;
 mod event;
-mod participant;
 mod pokemon;
 mod side;
 mod slot;
@@ -10,7 +9,7 @@ mod target;
 mod team;
 
 pub struct Battle {
-    side_a: Vec<BattleParticipant>,
-    side_b: Vec<BattleParticipant>,
+    side_a: Vec<BattleTeam>,
+    side_b: Vec<BattleTeam>,
     slots_per_participant: usize,
 }

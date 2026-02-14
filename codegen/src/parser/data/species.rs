@@ -27,6 +27,7 @@ pub struct SpeciesRecord {
     pub ev_yield: Stats<u8>,
     pub flags: SpeciesFlags,
     pub moveset: Moveset,
+    pub first_appearance: VersionGroup,
 }
 
 #[derive(Debug, Default)]
@@ -48,6 +49,7 @@ struct SpeciesBuilder {
     pub stats: Stats<u8>,
     pub ev_yield: Stats<u8>,
     pub moveset: Moveset,
+    pub first_appearance: VersionGroup,
 }
 
 impl SpeciesBuilder {
@@ -91,6 +93,7 @@ impl SpeciesBuilder {
             ev_yield: self.ev_yield,
             flags,
             moveset: self.moveset,
+            first_appearance: self.first_appearance,
         })
     }
 }
@@ -105,6 +108,13 @@ impl From<&PokemonFormsRecord> for SpeciesBuilder {
             is_gmax: form.form_identifier.as_deref() == Some("gmax"),
             is_mega: form.is_mega == 1,
             form_identifier: form.form_identifier.clone(),
+            first_appearance: VersionGroup::from_repr(form.introduced_in_version_group_id)
+                .unwrap_or_else(|| {
+                    panic!(
+                        "Invalid introduced_in_version_group_id: '{}'",
+                        form.introduced_in_version_group_id
+                    )
+                }),
             ..Default::default()
         }
     }

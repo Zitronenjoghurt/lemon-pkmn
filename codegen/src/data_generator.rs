@@ -43,6 +43,7 @@ impl DataGenerator {
                         form_identifier: species.form_identifier.clone(),
                         flags: species.flags,
                         moveset: species.moveset.clone(),
+                        first_appearance: species.first_appearance,
                     },
                 )
             })

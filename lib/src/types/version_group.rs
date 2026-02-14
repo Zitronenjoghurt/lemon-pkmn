@@ -1,6 +1,8 @@
 use strum_macros::{Display, EnumIter, FromRepr};
 
-#[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Hash, EnumIter, Display, FromRepr)]
+#[derive(
+    Debug, Default, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Hash, EnumIter, Display, FromRepr,
+)]
 #[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 #[repr(u8)]
@@ -32,6 +34,7 @@ pub enum VersionGroup {
     ScarletViolet = 25,
     TheTealMask = 26,
     TheIndigoDisk = 27,
+    #[default]
     RedGreenJapan = 28,
     BlueJapan = 29,
     LegendsZA = 30,
@@ -73,7 +76,7 @@ impl VersionGroup {
         VersionGroup::MegaDimension,
     ];
 
-    fn chronological_index(&self) -> usize {
+    pub fn chronological_index(&self) -> usize {
         Self::CHRONOLOGICAL_ORDER
             .iter()
             .position(|v| v == self)
