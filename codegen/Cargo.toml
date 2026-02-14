@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-lemon-pkmn = { workspace = true }
+lemon-pkmn = { workspace = true, features = ["bitcode"] }
 anyhow = "1.0.101"
 bitcode = { workspace = true }
 csv = "1.4.0"

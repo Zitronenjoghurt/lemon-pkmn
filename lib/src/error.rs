@@ -5,6 +5,7 @@ pub type PkmnResult<T> = Result<T, PkmnError>;
 
 #[derive(Debug, thiserror::Error)]
 pub enum PkmnError {
+    #[cfg(feature = "bitcode")]
     #[error("Bitcode Error: {0}")]
     Bitcode(#[from] bitcode::Error),
     #[error("IO Error: {0}")]

@@ -11,15 +11,19 @@ use std::collections::HashMap;
 pub mod moves;
 pub mod species;
 
+#[cfg(feature = "include-data")]
 const RAW_DATA: &[u8] = include_bytes!("../../data.bin");
 
-#[derive(Debug, bitcode::Encode, bitcode::Decode, serde::Serialize, serde::Deserialize)]
+#[derive(Debug)]
+#[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct Data {
     pub species: HashMap<u16, SpeciesData>,
     pub moves: HashMap<u16, MoveData>,
 }
 
 impl Data {
+    #[cfg(feature = "include-data")]
     pub fn load_included() -> PkmnResult<Self> {
         let decompressed = zstd::decode_all(RAW_DATA)?;
         Ok(bitcode::decode(&decompressed)?)
@@ -38,7 +42,9 @@ impl Data {
     }
 }
 
-#[derive(Debug, bitcode::Encode, bitcode::Decode, serde::Serialize, serde::Deserialize)]
+#[derive(Debug)]
+#[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct SpeciesData {
     pub identifier: String,
     pub national_dex: u16,
@@ -50,7 +56,9 @@ pub struct SpeciesData {
     pub flags: SpeciesFlags,
 }
 
-#[derive(Debug, bitcode::Encode, bitcode::Decode, serde::Serialize, serde::Deserialize)]
+#[derive(Debug)]
+#[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct MoveData {
     pub identifier: String,
     pub pokemon_type: PokemonType,
@@ -64,11 +72,12 @@ pub struct MoveData {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-    use strum::IntoEnumIterator;
-
     #[test]
+    #[cfg(feature = "include-data")]
     fn test_included_data() {
+        use super::*;
+        use strum::IntoEnumIterator;
+
         let data = Data::load_included().unwrap();
 
         for species_id in SpeciesId::iter() {

@@ -58,20 +58,9 @@ pub enum ExtendedStat {
     Special = 9,
 }
 
-#[derive(
-    Debug,
-    Default,
-    Copy,
-    Clone,
-    PartialEq,
-    Eq,
-    PartialOrd,
-    Ord,
-    bitcode::Encode,
-    bitcode::Decode,
-    serde::Serialize,
-    serde::Deserialize,
-)]
+#[derive(Debug, Default, Copy, Clone, PartialEq, Eq, PartialOrd, Ord)]
+#[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct Stats<T> {
     pub hp: T,
     pub atk: T,
