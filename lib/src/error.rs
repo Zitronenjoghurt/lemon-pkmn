@@ -1,7 +1,11 @@
+use crate::battle::error::BattleError;
+
 pub type PkmnResult<T> = Result<T, PkmnError>;
 
 #[derive(Debug, thiserror::Error)]
 pub enum PkmnError {
+    #[error("Battle Error: {0}")]
+    Battle(#[from] BattleError),
     #[cfg(feature = "bitcode")]
     #[error("Bitcode Error: {0}")]
     Bitcode(#[from] bitcode::Error),

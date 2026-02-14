@@ -1,3 +1,4 @@
+use crate::battle::config::BattleConfig;
 use crate::battle::pokemon::BattlePokemon;
 use crate::battle::slot::BattleSlot;
 use crate::data::Data;
@@ -10,15 +11,15 @@ pub struct BattleTeam {
 }
 
 impl BattleTeam {
-    pub fn new(data: &Data, team: &StoredTeam, slots_per_participant: usize) -> PkmnResult<Self> {
+    pub fn new(data: &Data, team: &StoredTeam, config: &BattleConfig) -> PkmnResult<Self> {
         let mut pokemon: [BattleSlot; 6] = Default::default();
-        let mut active: Vec<Option<usize>> = vec![None; slots_per_participant];
+        let mut active: Vec<Option<usize>> = vec![None; config.active_slots_per_team];
         let mut active_idx = 0;
 
         for (i, slot) in team.all().iter().enumerate() {
             if let Some(stored) = slot {
                 pokemon[i] = BattleSlot::Filled(BattlePokemon::new(data, stored)?);
-                if active_idx < slots_per_participant {
+                if active_idx < config.active_slots_per_team {
                     active[active_idx] = Some(i);
                     active_idx += 1;
                 }
@@ -26,5 +27,27 @@ impl BattleTeam {
         }
 
         Ok(Self { pokemon, active })
+    }
+
+    fn pokemon_index_from_active_slot_index(&self, slot_index: usize) -> Option<usize> {
+        *self.active.get(slot_index)?
+    }
+
+    pub fn get_active_pokemon(&self, slot_index: usize) -> Option<&BattlePokemon> {
+        let pokemon_index = self.pokemon_index_from_active_slot_index(slot_index)?;
+        let slot = self.pokemon.get(pokemon_index)?;
+        match slot {
+            BattleSlot::Filled(pokemon) => Some(pokemon),
+            _ => None,
+        }
+    }
+
+    pub fn get_active_pokemon_mut(&mut self, slot_index: usize) -> Option<&mut BattlePokemon> {
+        let pokemon_index = self.pokemon_index_from_active_slot_index(slot_index)?;
+        let slot = self.pokemon.get_mut(pokemon_index)?;
+        match slot {
+            BattleSlot::Filled(pokemon) => Some(pokemon),
+            _ => None,
+        }
     }
 }

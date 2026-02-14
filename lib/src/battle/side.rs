@@ -1,7 +1,9 @@
+use std::fmt::Display;
+
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]
 pub enum BattleSide {
     A,
-    B
+    B,
 }
 
 impl BattleSide {
@@ -10,5 +12,11 @@ impl BattleSide {
             BattleSide::A => BattleSide::B,
             BattleSide::B => BattleSide::A,
         }
+    }
+}
+
+impl Display for BattleSide {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{:?}", self)
     }
 }

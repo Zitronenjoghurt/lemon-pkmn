@@ -22,6 +22,7 @@ pub struct StoredPokemonGenerator {
     version_group: VersionGroupGenerator,
 }
 
+// ToDo: For evolved pokemon only generate levels above the level they evolve at
 impl StoredPokemonGenerator {
     pub fn generate<R: rand::Rng>(&self, rng: &mut R, data: &Data) -> PkmnResult<StoredPokemon> {
         let species_id = self.species_id.generate(rng);

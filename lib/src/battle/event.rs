@@ -1,10 +1,17 @@
-use crate::battle::target::{BattleTarget, BattleTargetSingle};
+use crate::battle::target::BattleTargetSingle;
 use crate::data::move_id::MoveId;
 
+#[derive(Debug)]
 pub enum BattleEvent {
-    MoveUsed {
+    MoveAnnounced {
         source: BattleTargetSingle,
-        target: BattleTarget,
         move_id: MoveId,
+    },
+    Damage {
+        target: BattleTargetSingle,
+        damage: u16,
+    },
+    Fainted {
+        target: BattleTargetSingle,
     },
 }
