@@ -2,9 +2,12 @@ use crate::parser::csv::pokemon_forms::PokemonFormsRecord;
 use crate::parser::csv::CsvData;
 use crate::parser::data::DataRecord;
 use anyhow::Context;
+use lemon_pkmn::data::moveset::{Moveset, MovesetEntry};
+use lemon_pkmn::types::move_method::MoveMethod;
 use lemon_pkmn::types::pokemon_type::PokemonType;
 use lemon_pkmn::types::species_flags::SpeciesFlags;
 use lemon_pkmn::types::stats::{Stat, Stats};
+use lemon_pkmn::types::version_group::VersionGroup;
 use std::collections::HashMap;
 
 #[derive(Debug)]
@@ -23,6 +26,7 @@ pub struct SpeciesRecord {
     pub stats: Stats<u8>,
     pub ev_yield: Stats<u8>,
     pub flags: SpeciesFlags,
+    pub moveset: Moveset,
 }
 
 #[derive(Debug, Default)]
@@ -43,6 +47,7 @@ struct SpeciesBuilder {
     pub form_identifier: Option<String>,
     pub stats: Stats<u8>,
     pub ev_yield: Stats<u8>,
+    pub moveset: Moveset,
 }
 
 impl SpeciesBuilder {
@@ -85,6 +90,7 @@ impl SpeciesBuilder {
             stats: self.stats,
             ev_yield: self.ev_yield,
             flags,
+            moveset: self.moveset,
         })
     }
 }
@@ -202,6 +208,39 @@ impl DataRecord for SpeciesRecord {
                 species.primary_type = Some(type_);
             } else if pokemon_form_type.slot == 2 {
                 species.secondary_type = Some(type_);
+            }
+        }
+
+        for pokemon_move in &csv_data.pokemon_moves {
+            let ids = ids_by_pokemon_id
+                .get(&pokemon_move.pokemon_id)
+                .context(format!(
+                    "PokeAPI pokemon with id '{}' has no form",
+                    pokemon_move.pokemon_id
+                ))?;
+
+            let version_group =
+                VersionGroup::from_repr(pokemon_move.version_group_id).context(format!(
+                    "Invalid version_group_id: '{}'",
+                    pokemon_move.version_group_id
+                ))?;
+
+            let move_method =
+                MoveMethod::from_repr(pokemon_move.pokemon_move_method_id).context(format!(
+                    "Invalid pokemon_move_method_id: '{}'",
+                    pokemon_move.pokemon_move_method_id
+                ))?;
+
+            let entry = MovesetEntry {
+                move_id: pokemon_move.move_id,
+                level: pokemon_move.level,
+                order: pokemon_move.order,
+                method: move_method,
+            };
+
+            for id in ids {
+                let species = species_by_id.get_mut(id).unwrap();
+                species.moveset.insert(version_group, entry);
             }
         }
 

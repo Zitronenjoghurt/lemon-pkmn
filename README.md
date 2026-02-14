@@ -1,6 +1,8 @@
 # lemon-pkmn
 
-A Pokemon battle tool/sim.
+**WORK IN PROGRESS**
+
+A Pokemon battle library and tool.
 
 # Mental model
 

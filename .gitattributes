@@ -1,1 +1,2 @@
-lib/src/data/* linguist-generated
+lib/src/data/move_id.rs linguist-generated
+lib/src/data/species_id.rs linguist-generated

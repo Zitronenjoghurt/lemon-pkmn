@@ -5,6 +5,7 @@ mod moves;
 pub mod pokemon;
 mod pokemon_form_types;
 pub mod pokemon_forms;
+mod pokemon_moves;
 mod pokemon_species;
 mod pokemon_stats;
 mod pokemon_types;
@@ -14,6 +15,7 @@ pub struct CsvData {
     pub pokemon: Vec<pokemon::PokemonRecord>,
     pub pokemon_form_types: Vec<pokemon_form_types::PokemonFormTypesRecord>,
     pub pokemon_forms: Vec<pokemon_forms::PokemonFormsRecord>,
+    pub pokemon_moves: Vec<pokemon_moves::PokemonMovesRecord>,
     pub pokemon_types: Vec<pokemon_types::PokemonTypesRecord>,
     pub pokemon_species: Vec<pokemon_species::PokemonSpeciesRecord>,
     pub pokemon_stats: Vec<pokemon_stats::PokemonStatsRecord>,
@@ -26,6 +28,7 @@ impl CsvData {
             pokemon: pokemon::PokemonRecord::load(data_dir)?,
             pokemon_form_types: pokemon_form_types::PokemonFormTypesRecord::load(data_dir)?,
             pokemon_forms: pokemon_forms::PokemonFormsRecord::load(data_dir)?,
+            pokemon_moves: pokemon_moves::PokemonMovesRecord::load(data_dir)?,
             pokemon_types: pokemon_types::PokemonTypesRecord::load(data_dir)?,
             pokemon_species: pokemon_species::PokemonSpeciesRecord::load(data_dir)?,
             pokemon_stats: pokemon_stats::PokemonStatsRecord::load(data_dir)?,

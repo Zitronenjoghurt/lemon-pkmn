@@ -1,5 +1,5 @@
 use crate::battle::target::{BattleTarget, BattleTargetSingle};
-use crate::data::moves::MoveId;
+use crate::data::move_id::MoveId;
 
 pub enum BattleEvent {
     MoveUsed {

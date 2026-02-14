@@ -1,6 +1,7 @@
-use crate::data::moves::MoveId;
+use crate::data::move_id::MoveId;
 
+#[derive(Debug, Copy, Clone)]
 pub struct StoredMove {
-    move_id: MoveId,
-    pp: u8,
+    pub move_id: MoveId,
+    pub pp: u8,
 }

@@ -42,6 +42,7 @@ impl DataGenerator {
                         ev_yield: species.ev_yield,
                         form_identifier: species.form_identifier.clone(),
                         flags: species.flags,
+                        moveset: species.moveset.clone(),
                     },
                 )
             })

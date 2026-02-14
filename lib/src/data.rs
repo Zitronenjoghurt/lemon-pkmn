@@ -1,5 +1,6 @@
-use crate::data::moves::MoveId;
-use crate::data::species::SpeciesId;
+use crate::data::move_id::MoveId;
+use crate::data::moveset::Moveset;
+use crate::data::species_id::SpeciesId;
 use crate::error::{PkmnError, PkmnResult};
 use crate::types::move_damage_class::MoveDamageClass;
 use crate::types::move_target::MoveTarget;
@@ -8,8 +9,9 @@ use crate::types::species_flags::SpeciesFlags;
 use crate::types::stats::Stats;
 use std::collections::HashMap;
 
-pub mod moves;
-pub mod species;
+pub mod move_id;
+pub mod moveset;
+pub mod species_id;
 
 #[cfg(feature = "include-data")]
 const RAW_DATA: &[u8] = include_bytes!("../../data.bin");
@@ -32,13 +34,13 @@ impl Data {
     pub fn get_species(&self, species_id: SpeciesId) -> PkmnResult<&SpeciesData> {
         self.species
             .get(&(species_id as u16))
-            .ok_or(PkmnError::SpeciesNotFound(species_id))
+            .ok_or(PkmnError::SpeciesNotFound(species_id as u16))
     }
 
     pub fn get_move(&self, move_id: MoveId) -> PkmnResult<&MoveData> {
         self.moves
             .get(&(move_id as u16))
-            .ok_or(PkmnError::MoveNotFound(move_id))
+            .ok_or(PkmnError::MoveNotFound(move_id as u16))
     }
 }
 
@@ -54,6 +56,7 @@ pub struct SpeciesData {
     pub ev_yield: Stats<u8>,
     pub form_identifier: Option<String>,
     pub flags: SpeciesFlags,
+    pub moveset: Moveset,
 }
 
 #[derive(Debug)]

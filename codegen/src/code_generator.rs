@@ -15,10 +15,10 @@ impl CodeGenerator {
 
     pub fn generate(&self, data: &ParsedData) -> anyhow::Result<()> {
         let species_content = species::generate(data)?;
-        std::fs::write(self.output_dir.join("species.rs"), species_content)?;
+        std::fs::write(self.output_dir.join("species_id.rs"), species_content)?;
 
         let moves_content = moves::generate(data)?;
-        std::fs::write(self.output_dir.join("moves.rs"), moves_content)?;
+        std::fs::write(self.output_dir.join("move_id.rs"), moves_content)?;
         Ok(())
     }
 }
