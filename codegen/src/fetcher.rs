@@ -11,6 +11,7 @@ const POKEAPI_REQUIRED: &[&str] = &[
     "pokemon",
     "pokemon_form_types",
     "pokemon_forms",
+    "pokemon_moves",
     "pokemon_species",
     "pokemon_stats",
     "pokemon_types",

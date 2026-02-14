@@ -16,7 +16,8 @@ pub struct SpeciesData {
     pub national_dex: u16,
     pub primary_type: PokemonType,
     pub secondary_type: Option<PokemonType>,
-    pub base_stats: Stats,
+    pub base_stats: Stats<u8>,
+    pub ev_yield: Stats<u8>,
     pub form_identifier: Option<&'static str>,
     pub flags: u8,
 }

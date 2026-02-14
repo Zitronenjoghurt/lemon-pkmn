@@ -21,12 +21,10 @@ pub fn generate(data: &ParsedData) -> anyhow::Result<String> {
             }
             None => quote! { None },
         };
-        let hp = s.stats.hp;
-        let atk = s.stats.atk;
-        let def = s.stats.def;
-        let sp_atk = s.stats.sp_atk;
-        let sp_def = s.stats.sp_def;
-        let speed = s.stats.speed;
+        let (hp, atk, def, sp_atk, sp_def, speed) =
+            (s.stats.hp, s.stats.atk, s.stats.def, s.stats.sp_atk, s.stats.sp_def, s.stats.speed);
+        let (ev_hp, ev_atk, ev_def, ev_sp_atk, ev_sp_def, ev_speed) =
+            (s.ev_yield.hp, s.ev_yield.atk, s.ev_yield.def, s.ev_yield.sp_atk, s.ev_yield.sp_def, s.ev_yield.speed);
         let form_identifier = match &s.form_identifier {
             Some(s) => quote! { Some(#s) },
             None => quote! { None },
@@ -40,6 +38,7 @@ pub fn generate(data: &ParsedData) -> anyhow::Result<String> {
                 primary_type: PokemonType::#primary_type,
                 secondary_type: #secondary_type,
                 base_stats: Stats { hp: #hp, atk: #atk, def: #def, sp_atk: #sp_atk, sp_def: #sp_def, speed: #speed },
+                ev_yield: Stats { hp: #ev_hp, atk: #ev_atk, def: #ev_def, sp_atk: #ev_sp_atk, sp_def: #ev_sp_def, speed: #ev_speed },
                 form_identifier: #form_identifier,
                 flags: #flags,
             },

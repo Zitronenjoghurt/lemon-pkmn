@@ -4,7 +4,7 @@ use crate::parser::data::DataRecord;
 use anyhow::Context;
 use lemon_pkmn::types::pokemon_type::PokemonType;
 use lemon_pkmn::types::species_flags::SpeciesFlags;
-use lemon_pkmn::types::stats::Stats;
+use lemon_pkmn::types::stats::{Stat, Stats};
 use std::collections::HashMap;
 
 #[derive(Debug)]
@@ -20,7 +20,8 @@ pub struct SpeciesRecord {
     pub primary_type: PokemonType,
     pub secondary_type: Option<PokemonType>,
     pub form_identifier: Option<String>,
-    pub stats: Stats,
+    pub stats: Stats<u8>,
+    pub ev_yield: Stats<u8>,
     pub flags: SpeciesFlags,
 }
 
@@ -40,7 +41,8 @@ struct SpeciesBuilder {
     pub is_mythical: bool,
     pub form_switchable: bool,
     pub form_identifier: Option<String>,
-    pub stats: Stats,
+    pub stats: Stats<u8>,
+    pub ev_yield: Stats<u8>,
 }
 
 impl SpeciesBuilder {
@@ -81,6 +83,7 @@ impl SpeciesBuilder {
             secondary_type: self.secondary_type,
             form_identifier: self.form_identifier,
             stats: self.stats,
+            ev_yield: self.ev_yield,
             flags,
         })
     }
@@ -158,7 +161,10 @@ impl DataRecord for SpeciesRecord {
 
             for id in ids {
                 let species = species_by_id.get_mut(id).unwrap();
-                stats_record.apply(&mut species.stats)?;
+                let stat = Stat::from_repr(stats_record.stat_id)
+                    .context(format!("Invalid stat_id: '{}'", stats_record.stat_id))?;
+                species.stats.set(stat, stats_record.base_stat);
+                species.ev_yield.set(stat, stats_record.effort);
             }
         }
 
