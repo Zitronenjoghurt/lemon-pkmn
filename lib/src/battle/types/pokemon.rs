@@ -7,10 +7,10 @@ use crate::types::stats::Stats;
 
 #[derive(Debug, Clone)]
 pub struct BattlePokemon {
-    base: StoredPokemon,
-    current_hp: u16,
-    stats: Stats<u16>,
-    stat_stages: StatStages,
+    pub base: StoredPokemon,
+    pub current_hp: u16,
+    pub stats: Stats<u16>,
+    pub stat_stages: StatStages,
 }
 
 impl BattlePokemon {

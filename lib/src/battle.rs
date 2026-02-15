@@ -2,7 +2,7 @@ use crate::battle::config::BattleConfig;
 use crate::battle::error::BattleError;
 use crate::battle::sim::move_executor::MoveExecutor;
 use crate::data::move_pipeline::move_pipeline;
-use crate::data::Data;
+use crate::data::{Data, SpeciesData};
 use crate::error::PkmnResult;
 use std::sync::Arc;
 use types::action::{BattleAction, BattleActionKind};
@@ -210,6 +210,12 @@ impl Battle {
 
         let slot_index = target.slot % self.config.active_slots_per_team;
         team.get_active_pokemon_mut(slot_index)
+    }
+
+    pub fn get_target_species_data(&self, target: BattleTargetSingle) -> Option<&SpeciesData> {
+        self.data
+            .get_species(self.get_target(target)?.base.species_id)
+            .ok()
     }
 }
 

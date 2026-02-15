@@ -62,6 +62,12 @@ pub struct SpeciesData {
     pub first_appearance: VersionGroup,
 }
 
+impl SpeciesData {
+    pub fn has_type(&self, pokemon_type: PokemonType) -> bool {
+        self.primary_type == pokemon_type || self.secondary_type == Some(pokemon_type)
+    }
+}
+
 #[derive(Debug)]
 #[cfg_attr(feature = "bitcode", derive(bitcode::Encode, bitcode::Decode))]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
