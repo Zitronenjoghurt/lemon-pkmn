@@ -45,4 +45,9 @@ impl MovesGenerator {
 
         Ok(moves)
     }
+
+    pub fn specific(mut self, moves: &[MoveId]) -> Self {
+        self.specific = moves.to_vec();
+        self
+    }
 }

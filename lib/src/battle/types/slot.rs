@@ -1,4 +1,4 @@
-use crate::battle::pokemon::BattlePokemon;
+use crate::battle::types::pokemon::BattlePokemon;
 
 #[derive(Debug, Default)]
 pub enum BattleSlot {

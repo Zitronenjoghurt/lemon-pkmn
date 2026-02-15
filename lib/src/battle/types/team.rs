@@ -1,6 +1,6 @@
 use crate::battle::config::BattleConfig;
-use crate::battle::pokemon::BattlePokemon;
-use crate::battle::slot::BattleSlot;
+use crate::battle::types::pokemon::BattlePokemon;
+use crate::battle::types::slot::BattleSlot;
 use crate::data::Data;
 use crate::error::PkmnResult;
 use crate::storage::team::StoredTeam;

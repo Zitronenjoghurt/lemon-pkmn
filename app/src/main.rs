@@ -1,6 +1,7 @@
-use lemon_pkmn::battle::action::BattleAction;
-use lemon_pkmn::battle::target::BattleTargetSingle;
+use lemon_pkmn::battle::types::action::BattleAction;
+use lemon_pkmn::battle::types::target::BattleTargetSingle;
 use lemon_pkmn::battle::Battle;
+use lemon_pkmn::data::move_id::MoveId;
 use lemon_pkmn::data::Data;
 use lemon_pkmn::generate::stored_pokemon::StoredPokemonGenerator;
 use lemon_pkmn::generate::thread_rng;
@@ -9,7 +10,7 @@ use std::sync::Arc;
 
 fn main() {
     let data = Arc::new(Data::load_included().unwrap());
-    let generator = StoredPokemonGenerator::default();
+    let generator = StoredPokemonGenerator::default().moves(|g| g.specific(&[MoveId::Pound]));
 
     let pokemon_a = generator.generate(&mut thread_rng(), &data).unwrap();
     let pokemon_b = generator.generate(&mut thread_rng(), &data).unwrap();

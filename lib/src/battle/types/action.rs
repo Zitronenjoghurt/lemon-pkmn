@@ -1,4 +1,4 @@
-use crate::battle::target::BattleTargetSingle;
+use crate::battle::types::target::BattleTargetSingle;
 
 #[derive(Debug, Clone)]
 pub enum BattleActionKind {

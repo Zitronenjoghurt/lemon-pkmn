@@ -42,8 +42,9 @@ impl BattlePokemon {
 
     pub fn apply_damage(&mut self, damage: u16) -> u16 {
         if damage > self.current_hp {
+            let dealt = self.current_hp;
             self.current_hp = 0;
-            self.current_hp
+            dealt
         } else {
             self.current_hp -= damage;
             damage

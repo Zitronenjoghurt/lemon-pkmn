@@ -11,6 +11,7 @@ use crate::types::version_group::VersionGroup;
 use std::collections::HashMap;
 
 pub mod move_id;
+pub mod move_pipeline;
 pub mod moveset;
 pub mod species_id;
 

@@ -1,4 +1,4 @@
-use crate::battle::side::BattleSide;
+use crate::battle::types::side::BattleSide;
 use std::fmt::{Display, Formatter};
 
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]

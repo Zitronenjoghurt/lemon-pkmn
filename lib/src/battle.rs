@@ -1,27 +1,22 @@
-use crate::battle::action::{BattleAction, BattleActionKind};
 use crate::battle::config::BattleConfig;
 use crate::battle::error::BattleError;
-use crate::battle::event::BattleEvent;
-use crate::battle::pokemon::BattlePokemon;
-use crate::battle::side::BattleSide;
-use crate::battle::target::{BattleTarget, BattleTargetSingle};
-use crate::battle::team::BattleTeam;
+use crate::battle::sim::move_executor::MoveExecutor;
+use crate::data::move_pipeline::move_pipeline;
 use crate::data::Data;
 use crate::error::PkmnResult;
-use crate::types::move_damage_class::MoveDamageClass;
-use crate::types::move_target::MoveTarget;
 use std::sync::Arc;
+use types::action::{BattleAction, BattleActionKind};
+use types::event::BattleEvent;
+use types::pokemon::BattlePokemon;
+use types::side::BattleSide;
+use types::target::BattleTargetSingle;
+use types::team::BattleTeam;
 
-pub mod action;
 mod builder;
 pub mod config;
 pub mod error;
-pub mod event;
-pub mod pokemon;
-pub mod side;
-pub mod slot;
-pub mod target;
-pub mod team;
+pub mod sim;
+pub mod types;
 
 pub struct Battle {
     data: Arc<Data>,
@@ -30,6 +25,7 @@ pub struct Battle {
     side_b: Vec<BattleTeam>,
     actions: Vec<BattleAction>,
     action_priorities: Vec<isize>,
+    events: Vec<BattleEvent>,
     rng: Box<dyn rand::Rng>,
 }
 
@@ -42,7 +38,7 @@ impl Battle {
 // Actions
 impl Battle {
     pub fn queue_action(&mut self, action: BattleAction) -> PkmnResult<()> {
-        if !self.target_exists(BattleTarget::Single(action.source)) {
+        let Some(source) = self.get_target(action.source) else {
             return Err(BattleError::InvalidActionSource(action.source).into());
         };
 
@@ -50,6 +46,22 @@ impl Battle {
         if already_taken {
             return Err(BattleError::ActionAlreadyTaken(action.source).into());
         }
+
+        if let BattleActionKind::UseMove { move_index, target } = action.kind {
+            if !self.target_exists(target) {
+                return Err(BattleError::InvalidActionTarget(target).into());
+            };
+
+            if source.get_move(move_index).is_none() {
+                return Err(BattleError::NoMoveInSlot {
+                    user: action.source,
+                    slot: move_index,
+                }
+                .into());
+            };
+        }
+
+        // ToDo: Check remaining PP
 
         let priority = self.action_priority(&action)?;
         self.actions.push(action);
@@ -93,17 +105,32 @@ impl Battle {
         std::mem::take(&mut self.actions)
     }
 
-    fn execute_action(
-        &mut self,
-        events: &mut Vec<BattleEvent>,
-        action: &BattleAction,
-    ) -> PkmnResult<()> {
+    fn execute_action(&mut self, action: &BattleAction) -> PkmnResult<()> {
         match action.kind {
             BattleActionKind::UseMove { move_index, target } => {
-                self.execute_move(action.source, target, move_index, events)?;
+                self.execute_move(action.source, target, move_index)?;
             }
         }
         Ok(())
+    }
+}
+
+// Events
+impl Battle {
+    pub fn push_event(&mut self, event: BattleEvent) {
+        self.events.push(event);
+    }
+
+    pub fn take_events(&mut self) -> Vec<BattleEvent> {
+        std::mem::take(&mut self.events)
+    }
+
+    pub fn debug_message(&mut self, message: impl Into<String>) {
+        self.push_event(BattleEvent::debug(message));
+    }
+
+    pub fn info_message(&mut self, message: impl Into<String>) {
+        self.push_event(BattleEvent::info(message));
     }
 }
 
@@ -114,15 +141,48 @@ impl Battle {
             return Err(BattleError::TurnNotReady.into());
         }
 
-        let mut events = vec![];
         for action in self.take_actions() {
             if !self.target_alive(action.source) {
                 continue;
             }
-            self.execute_action(&mut events, &action)?;
+            self.execute_action(&action)?;
         }
 
-        Ok(events)
+        // ToDo: Pokemon with no PP left should struggle
+
+        Ok(self.take_events())
+    }
+}
+
+// Move execution
+impl Battle {
+    fn execute_move(
+        &mut self,
+        source: BattleTargetSingle,
+        target: BattleTargetSingle,
+        move_index: usize,
+    ) -> PkmnResult<()> {
+        let Some(source_pokemon) = self.get_target(source) else {
+            // ToDo: Handle properly, might have to change target, etc.
+            return Ok(());
+        };
+        let Some(stored_move) = source_pokemon.get_move(move_index) else {
+            return Err(BattleError::NoMoveInSlot {
+                user: source,
+                slot: move_index,
+            }
+            .into());
+        };
+
+        let move_id = stored_move.move_id;
+        let pipeline = move_pipeline(move_id);
+        MoveExecutor::new(self, move_id, source, target).run(pipeline)?;
+
+        Ok(())
+    }
+
+    fn apply_damage(&mut self, target: BattleTargetSingle, damage: u16) -> Option<u16> {
+        Some(self.get_target_mut(target)?.apply_damage(damage))
     }
 }
 
@@ -162,86 +222,13 @@ impl Battle {
         pokemon.is_alive()
     }
 
-    pub fn target_exists(&self, target: BattleTarget) -> bool {
-        match target {
-            BattleTarget::Single(single) => single.slot < self.config.active_slots_per_team,
-        }
+    pub fn target_exists(&self, target: BattleTargetSingle) -> bool {
+        self.get_target(target).is_some()
     }
 
     /// Checks if the current turn is ready to be executed (all actions have been queued)
     pub fn turn_ready(&self) -> bool {
         self.actions.len() == self.config.active_slots_per_team * 2
-    }
-}
-
-// Move execution
-impl Battle {
-    fn execute_move(
-        &mut self,
-        source: BattleTargetSingle,
-        target: BattleTargetSingle,
-        move_index: usize,
-        events: &mut Vec<BattleEvent>,
-    ) -> PkmnResult<()> {
-        let Some(source_pokemon) = self.get_target(source) else {
-            // ToDo: Handle properly
-            return Ok(());
-        };
-        let Some(stored_move) = source_pokemon.get_move(move_index) else {
-            // ToDo: Handle properly
-            return Ok(());
-        };
-        let move_id = stored_move.move_id;
-
-        let m = self.data.get_move(move_id)?;
-        let power = m.power;
-        let damage_class = m.damage_class;
-        let move_target = m.target;
-
-        events.push(BattleEvent::MoveAnnounced { source, move_id });
-
-        // ToDo: Accuracy check
-
-        let targets = self.resolve_targets(target, move_target);
-        for target in targets {
-            if !self.target_alive(target) {
-                continue;
-            }
-
-            if damage_class != MoveDamageClass::Status {
-                // ToDo: Actual damage calculation
-                let damage = power as u16;
-                let damage_dealt = self.apply_damage(target, damage);
-
-                events.push(BattleEvent::Damage {
-                    target,
-                    damage: damage_dealt,
-                });
-
-                if !self.target_alive(target) {
-                    events.push(BattleEvent::Fainted { target });
-                }
-            }
-        }
-
-        Ok(())
-    }
-
-    fn resolve_targets(
-        &self,
-        target: BattleTargetSingle,
-        _move_target: MoveTarget,
-    ) -> Vec<BattleTargetSingle> {
-        // ToDo: Properly resolve targets
-        vec![target]
-    }
-
-    fn apply_damage(&mut self, target: BattleTargetSingle, damage: u16) -> u16 {
-        // ToDo: Handle target not existing or not being alive anymore properly
-        let Some(pokemon) = self.get_target_mut(target) else {
-            return 0;
-        };
-        pokemon.apply_damage(damage)
     }
 }
 

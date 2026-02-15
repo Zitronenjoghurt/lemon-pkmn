@@ -1,6 +1,6 @@
 use crate::battle::config::BattleConfig;
-use crate::battle::side::BattleSide;
-use crate::battle::team::BattleTeam;
+use crate::battle::types::side::BattleSide;
+use crate::battle::types::team::BattleTeam;
 use crate::battle::Battle;
 use crate::data::Data;
 use crate::error::PkmnResult;
@@ -34,6 +34,7 @@ impl BattleBuilder {
             side_b: self.side_b,
             actions: Vec::new(),
             action_priorities: Vec::new(),
+            events: Vec::new(),
             rng: self.rng,
         })
     }
