@@ -234,6 +234,7 @@ impl Battle {
 
     /// Checks if the current turn is ready to be executed (all actions have been queued)
     pub fn turn_ready(&self) -> bool {
+        // ToDo: Only check for actions of active pokemon
         self.actions.len() == self.config.active_slots_per_team * 2
     }
 }

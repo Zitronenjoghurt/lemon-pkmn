@@ -1,4 +1,5 @@
 use crate::battle::types::target::BattleTargetSingle;
+use crate::battle::types::type_effectiveness::TypeEffectiveness;
 use crate::data::move_id::MoveId;
 
 #[derive(Debug)]
@@ -15,6 +16,7 @@ pub enum BattleEvent {
     Damage {
         target: BattleTargetSingle,
         damage: u16,
+        effectiveness: TypeEffectiveness,
     },
     Fainted {
         target: BattleTargetSingle,

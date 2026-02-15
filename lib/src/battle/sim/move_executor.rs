@@ -1,9 +1,11 @@
+use crate::battle::error::BattleError;
 use crate::battle::types::event::BattleEvent;
 use crate::battle::types::target::BattleTargetSingle;
+use crate::battle::types::type_effectiveness::TypeEffectiveness;
 use crate::battle::Battle;
 use crate::data::move_id::MoveId;
 use crate::data::MoveData;
-use crate::error::PkmnResult;
+use crate::error::{PkmnError, PkmnResult};
 use crate::types::move_damage_class::MoveDamageClass;
 use crate::types::move_target::MoveTarget;
 use crate::types::pokemon_type::PokemonType;
@@ -145,7 +147,7 @@ impl MoveExecutor<'_> {
                 break;
             }
 
-            let damage = self.calculate_damage(self.target)?;
+            let (damage, effectiveness) = self.calculate_damage(self.target)?;
             let Some(dealt) = self.battle.apply_damage(self.target, damage) else {
                 break;
             };
@@ -153,6 +155,7 @@ impl MoveExecutor<'_> {
             self.battle.push_event(BattleEvent::Damage {
                 target: self.target,
                 damage: dealt,
+                effectiveness,
             });
 
             if !self.battle.target_alive(self.target) {
@@ -166,44 +169,65 @@ impl MoveExecutor<'_> {
     }
 }
 
-// Damage calculation
+// Calculation
 impl MoveExecutor<'_> {
     /// Source: https://bulbapedia.bulbagarden.net/wiki/Damage#Generation_V_onward
-    fn calculate_damage(&mut self, target: BattleTargetSingle) -> PkmnResult<u16> {
+    fn calculate_damage(
+        &mut self,
+        target: BattleTargetSingle,
+    ) -> PkmnResult<(u16, TypeEffectiveness)> {
         let damage_class = self.move_damage_class()?;
         if damage_class == MoveDamageClass::Status {
-            return Ok(0);
+            return Ok((0, TypeEffectiveness::Normal));
         };
-        let Some(source) = self.battle.get_target(self.source) else {
-            return Ok(0);
+        let Some(source_pokemon) = self.battle.get_target(self.source) else {
+            return Err(BattleError::InvalidActionSource(self.source).into());
         };
-        let Some(target) = self.battle.get_target(target) else {
-            return Ok(0);
+        let Some(target_pokemon) = self.battle.get_target(target) else {
+            return Err(BattleError::InvalidActionTarget(target).into());
         };
         let Some(source_data) = self.battle.get_target_species_data(self.source) else {
-            return Ok(0);
+            return Err(PkmnError::SpeciesNotFound(
+                source_pokemon.base.species_id as u16,
+            ));
         };
 
-        let level = source.base.level as u32;
+        let level = source_pokemon.base.level as u32;
+
         let power = self.move_power()? as u32;
+
         let (atk, def) = if damage_class == MoveDamageClass::Physical {
-            (source.stats.atk, target.stats.def)
+            (source_pokemon.stats.atk, target_pokemon.stats.def)
         } else {
-            (source.stats.sp_atk, target.stats.sp_def)
+            (source_pokemon.stats.sp_atk, target_pokemon.stats.sp_def)
         };
+
         let stab = if source_data.has_type(self.move_type()?) {
             1.5
         } else {
             1.0
         };
+
         let random = self.battle.rng.random_range(85.0..=100.0) / 100.0;
+
+        let type_effect_factor = self.target_type_effectiveness(target, self.move_type()?)?;
+        if type_effect_factor == 0.0 {
+            return Ok((0, TypeEffectiveness::Immune));
+        }
+
+        let effectiveness = if type_effect_factor > 1.0 {
+            TypeEffectiveness::Effective
+        } else if type_effect_factor == 1.0 {
+            TypeEffectiveness::Normal
+        } else {
+            TypeEffectiveness::NotEffective
+        };
 
         // ToDo: Critical hits
         // ToDo: Targets
         // ToDo: Parental Bond
         // ToDo: Weather
         // ToDo: GlaiveRush
-        // ToDo: Type effectiveness (in 0 case, calculation is skipped entirely)
         // ToDo: Burn
         // ToDo: Z-Move
         // ToDo: Terastallization
@@ -213,8 +237,19 @@ impl MoveExecutor<'_> {
             * (atk as f64 / def as f64).floor() as u32) as f64)
             / 50.0)
             .floor() as u16;
-        let damage = (base_damage as f64 * stab * random).floor() as u16;
+        let damage = ((base_damage as f64 * stab * random).floor() as u16).max(1);
 
-        Ok(if damage == 0 { 1 } else { damage })
+        Ok((damage, effectiveness))
+    }
+
+    fn target_type_effectiveness(
+        &self,
+        target: BattleTargetSingle,
+        attacking_type: PokemonType,
+    ) -> PkmnResult<f64> {
+        let Some(target_data) = self.battle.get_target_species_data(target) else {
+            return Err(BattleError::InvalidActionTarget(target).into());
+        };
+        Ok(attacking_type.effectiveness(target_data.primary_type, target_data.secondary_type))
     }
 }

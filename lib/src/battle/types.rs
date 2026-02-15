@@ -5,3 +5,4 @@ pub mod side;
 pub mod slot;
 pub mod target;
 pub mod team;
+pub mod type_effectiveness;
